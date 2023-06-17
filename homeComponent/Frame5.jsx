@@ -5,7 +5,8 @@ import Link from "next/link";
 
 const Frame5 = () => {
   return (
-    <div className={`${styles.innerWidth} relative mb-[12rem]`}>
+    <div>
+    <div className={`${styles.innerWidth} relative mb-[0rem]`}>
       <div className="absolut">
         <Image src="/map.png" fill alt="map" />
       </div>
@@ -24,6 +25,18 @@ together we learn and grow
                 </div>
                 </div>
           </div>
+        </div>
+      </div>
+      </div>
+
+      <div className="px-16 flex justify-between items-center py-6 text-[#343A40] ">
+        <div className="flex gap-6">
+          <p>© 2023 Designers Query</p>
+          <p>Terms and Conditions</p>
+          <p>Privacy</p>
+        </div>
+        <div>
+          <p>English</p>
         </div>
       </div>
     </div>

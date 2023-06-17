@@ -111,9 +111,9 @@ DesignersQuery Account</h1>
           </div>
         </div>
 
-        <div className="w-[50%] hidden lg:block">
-          <div className="w-[100%]">
-            <Image src="/log.png" width={883} height={200} alt="login" />
+        <div className="w-[50%] h-full hidden lg:block">
+          <div className="w-[100%] h-[100%]">
+            <Image src="/log.png" width={800} height={1200} alt="login" />
           </div>
         </div>
       </div>
