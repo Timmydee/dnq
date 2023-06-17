@@ -56,14 +56,14 @@ const Navbar = () => {
         <div className="block lg:hidden flex-1">
           <div onClick={handleToggle} className="relative flex justify-end">
             {!toggle ? (
-              <BiMenuAltRight color="black" />
+              <BiMenuAltRight color="black" size={30} />
             ) : (
-              <AiOutlineClose color="black" />
+              <AiOutlineClose color="black" size={30}/>
             )}
           </div>
 
           {toggle && (
-            <div className="bg-blue-900 absolute top-14 w-[100%] h-[30vh] rounded-lg">
+            <div className="bg-blue-500 absolute top-14 w-[100%] h-[30vh] rounded-lg">
               <div className="flex-col justify-center items-center p-4 text-white font-WorkSans text-[16px] text-sm">
                 <div className="text-[#0074D9]">
                   <Link href="/">Home</Link>
@@ -73,14 +73,14 @@ const Navbar = () => {
                 </div>
                 <div 
                   href=""
-                  className="w-[120px] h-[40px] font-light text-[#333333] mt-8 flex items-center justify-center rounded-xl border border-blue-400"
+                  className="w-[60px] h-[20px] font-light text-[#333333] mt-8 flex items-center justify-center rounded-xl border border-blue-400"
                 >
                   <Link href="/login">Log In</Link>
                 </div>
 
                 <div
                   href=""
-                  className="w-[120px] h-[40px] font-light mt-3 flex items-center justify-center rounded-xl bg-blue-500 text-white"
+                  className="w-[60px] h-[20px] font-light mt-3 flex items-center justify-center rounded-xl bg-blue-500 text-white"
                 >
                   <Link href="/signup">Sign Up</Link>
                 </div>
