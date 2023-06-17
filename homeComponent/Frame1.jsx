@@ -5,7 +5,7 @@ const Frame1 = () => {
   return (
     <div className={`${styles.innerWidth}`}>
       <div className='flex justify-center items-center h-[90vh] my-auto'>
-        <div className='w-[680px] h-[277px] bg-white rounded-xl flex justify-center items-center'>
+        <div className='lg:w-[680px] w-[80%] h-[277px] bg-white rounded-xl flex justify-center items-center'>
           <div>
             <h1 className={`${styles.h2Style} text-[#0074D9]`}>Designers Help Desk</h1>
             <p className={`${styles.pStyle2} mt-1 text-[#333333] text-center`}>Where Designers Thrive and Questions Flourish</p>
