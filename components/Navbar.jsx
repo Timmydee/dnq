@@ -62,8 +62,8 @@ const Navbar = () => {
             )}
           </div>
 
-          {toggle && (
-            <div className="bg-blue-500 absolute top-14 w-[40%] h-[30vh] rounded-lg">
+          {!toggle && (
+            <div className="bg-blue-500 absolute top-16 w-[40%] right-6 h-[30vh] rounded-lg">
               <div className="flex-col justify-center items-center p-4 text-white text-[16px] text-sm">
                 <div className="text-[#0074D9]">
                   <Link href="/">Home</Link>
