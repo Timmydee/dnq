@@ -29,8 +29,8 @@ together we learn and grow
       </div>
       </div>
 
-      <div className="px-16 flex justify-between items-center py-6 text-[#343A40] ">
-        <div className="flex gap-6">
+      <div className="lg:px-16 px-1 flex justify-between items-center py-6 text-[#343A40] ">
+        <div className="flex lg:gap-6 gap-1">
           <p>© 2023 Designers Query</p>
           <p>Terms and Conditions</p>
           <p>Privacy</p>
