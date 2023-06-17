@@ -29,7 +29,7 @@ together we learn and grow
       </div>
       </div>
 
-      <div className="lg:px-16 px-1 flex lg:flex-col lg:justify-center justify-between items-center py-6 text-[#343A40] ">
+      <div className="lg:px-16 px-1 flex lg:flex-col lg:justify-center justify-between items-center py-6 text-[#343A40] font-light lg:text-[16px] text-[14px] ">
         <div className="flex lg:gap-6 gap-1">
           <p>© 2023 Designers Query</p>
           <p>Terms and Conditions</p>
