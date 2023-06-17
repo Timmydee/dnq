@@ -62,7 +62,7 @@ const Navbar = () => {
             )}
           </div>
 
-          {!toggle && (
+          {toggle && (
             <div className="bg-blue-500 absolute top-16 w-[40%] right-6 h-[30vh] rounded-lg">
               <div className="flex-col justify-center items-center p-4 text-white text-[16px] text-sm">
                 <div className="text-[#0074D9]">
@@ -73,7 +73,7 @@ const Navbar = () => {
                 </div>
                 <div 
                   href=""
-                  className="w-[80px] h-[30px] font-light text-[#333333] mt-8 flex items-center justify-center rounded-xl border border-blue-400"
+                  className="w-[80px] h-[30px] font-light text-white lg:text-[#333333] mt-8 flex items-center justify-center rounded-xl border border-blue-400"
                 >
                   <Link href="/login">Log In</Link>
                 </div>
