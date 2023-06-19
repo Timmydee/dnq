@@ -33,21 +33,21 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </div>
             <div>
-              <Link href="/about">About</Link>
+              <Link href="/about">About Us</Link>
             </div>
           </div>
 
           <div className="lg:flex hidden justify-between items-center gap-6">
             <div
               href=""
-              className="w-[120px] h-[40px] font-light text-[#333333] flex items-center justify-center rounded-xl border border-blue-400"
+              className="w-[120px] h-[40px] font-light text-[#333333] flex items-center justify-center rounded-xl border border-blue-400 hover:bg-blue-800"
             >
               <Link href="/login">Log In</Link>
             </div>
 
             <div
               href=""
-              className="w-[120px] h-[40px] font-light flex items-center justify-center rounded-xl bg-blue-500 text-white"
+              className="w-[120px] h-[40px] font-light flex items-center justify-center rounded-xl bg-blue-500 text-white hover:bg-blue-800"
             >
               <Link href="/signup">Sign Up</Link>
             </div>
@@ -69,18 +69,18 @@ const Navbar = () => {
                   <Link href="/">Home</Link>
                 </div>
                 <div className="mt-6">
-                  <Link href="/about">About</Link>
+                  <Link href="/about">About Us</Link>
                 </div>
                 <div 
                   href=""
-                  className="w-[80px] h-[30px] font-light text-white lg:text-[#333333] mt-8 flex items-center justify-center rounded-xl border border-blue-400"
+                  className="w-[80px] h-[30px] font-light text-white lg:text-[#333333] mt-8 flex items-center justify-center rounded-xl border border-blue-400 hover:bg-blue-800"
                 >
                   <Link href="/login">Log In</Link>
                 </div>
 
                 <div
                   href=""
-                  className="w-[80px] h-[30px] font-light mt-3 flex items-center justify-center rounded-xl bg-blue-500 text-white"
+                  className="w-[80px] h-[30px] font-light mt-3 flex items-center justify-center rounded-xl bg-blue-500 text-white hover:bg-blue-800"
                 >
                   <Link href="/signup">Sign Up</Link>
                 </div>

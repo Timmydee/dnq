@@ -14,13 +14,14 @@ export default function Home() {
       <div>
         <div className="relative h-screen">
           <div className="absolute inset-0">
-            <Image src="/hero.png" fill alt="hero" />
+            <Image src="/hero.png" width={1700} height={1000} alt="hero" />
           </div>
           <div className="relative z-1">
             <Frame1 />
             <Frame2 />
             <Frame3 />
             <Frame4 />
+            
             {/* <Swipe /> */}
             <Frame5 />
           </div>
