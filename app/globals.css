@@ -80,7 +80,7 @@
 
 @media (max-width:959px) {
   .overlay{
-    height:300px;
+    height:230px;
   }
 
   image{
@@ -88,13 +88,13 @@
     
   }
   .content{
-    height:250px;
+    height:230px;
     
   }
 
   .content h1{
     font-size: 30px;
-    padding:15px 50px;
+    padding:10px 40px;
   }
 
 }
