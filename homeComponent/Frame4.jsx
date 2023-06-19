@@ -17,7 +17,7 @@ const Frame4 = () => {
 
             <div
               href=""
-              className="w-[120px] h-[40px] font-light flex items-center justify-center rounded-xl bg-blue-500 text-white"
+              className="w-[120px] h-[40px] font-light flex items-center justify-center rounded-xl bg-blue-500 text-white shadow-sm hover:shadow-lg hover:bg-blue-700"
             >
               <Link href="/connect">Get Started</Link>
             </div>
@@ -65,7 +65,7 @@ const Frame4 = () => {
 
             <div
               href=""
-              className="w-[120px] h-[40px] font-light flex items-center justify-center rounded-xl bg-blue-500 text-white"
+              className="w-[120px] h-[40px] font-light flex items-center justify-center rounded-xl bg-blue-500 text-white shadow-sm hover:shadow-lg hover:bg-blue-700"
             >
               <Link href="/connect">Get Started</Link>
             </div>

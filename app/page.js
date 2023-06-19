@@ -4,6 +4,7 @@ import Frame2 from "@/homeComponent/Frame2";
 import Frame3 from "@/homeComponent/Frame3";
 import Frame4 from "@/homeComponent/Frame4";
 import Frame5 from "@/homeComponent/Frame5";
+import Swipe from "@/homeComponent/Swipe";
 import Image from "next/image";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
             <Frame2 />
             <Frame3 />
             <Frame4 />
+            {/* <Swipe /> */}
             <Frame5 />
           </div>
         </div>

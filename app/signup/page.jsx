@@ -4,6 +4,7 @@ import styles from "@/styles";
 import Link from "next/link";
 import {FcGoogle} from 'react-icons/fc'
 
+
 const SignUp = () => {
   return (
     <div className={`${styles.innerWidth}`}>
@@ -100,7 +101,7 @@ DesignersQuery Account</h1>
                   <div className="flex justify-center w-full my-1">
                     <p>
                       Don't Have an account?{" "}
-                      <Link href="/signup" className="text-blue-500">
+                      <Link href="/signup" className="text-blue-500 shadow-sm hover:shadow-lg hover:bg-blue-700">
                         Login
                       </Link>{" "}
                     </p>

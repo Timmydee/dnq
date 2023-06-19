@@ -58,7 +58,7 @@ const Login = () => {
                   </div>
 
                   <div className=" my-2">
-                    <Link href="/forgotPassword" className="text-blue-500">
+                    <Link href="/forgotPassword" className="text-blue-500 shadow-sm hover:shadow-lg hover:bg-blue-700">
                       Forgot Password
                     </Link>
                   </div>
@@ -87,7 +87,7 @@ const Login = () => {
                   <div className="flex justify-center w-full my-1">
                     <p>
                       Don't Have an account?{" "}
-                      <Link href="/signup" className="text-blue-500">
+                      <Link href="/signup" className="text-blue-500 shadow-sm hover:shadow-lg hover:bg-blue-700">
                         Sign Up
                       </Link>{" "}
                     </p>
