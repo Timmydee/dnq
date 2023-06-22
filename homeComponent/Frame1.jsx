@@ -4,10 +4,10 @@ import Image from "next/image";
 
 const Frame1 = () => {
   return (
-    <div className={`${styles.innerWidth} px-[4rem] mt-[5rem] mb-[3rem]`}>
-      <div className="relative">
-        <div className="flex">
-          <div className=" flex-col justify-start items-start gap-[20px] inline-flex py-[3rem]">
+    <div className={`${styles.innerWidth} h-full relative px-[4rem] mt-[0rem] mb-[3rem]`}>
+      <div className="relative flex flex-col justify-between items-center lg:flex-row">
+        <div className="fle">
+          <div className=" flex-col justify-start items-start gap-[20px] inline-flex py-[3rem] mt-[4rem]">
             <div className="p-[0px] flex-col justify-start items-start gap-[10px] flex">
               <div className="text-zinc-800 text-[57px] font-extrabold">
                 Take your design <br />
@@ -32,9 +32,13 @@ const Frame1 = () => {
           <div className="w-[26px] h-[26px] left-[314px] top-[738px] absolute bg-amber-500 rounded-full" />{" "} */}
         </div>
 
-        <div className="">
-          <div className="w-[482px] h-[506px] left-[702px] top-[0] bottom-0 absolute">
-            <Image src="/dnqHero.png" fill />
+        <div className="relativ">
+          
+          <div className="w-[982px] h-[1006px] top-[0%] bottom-[10%] absolute">
+            <Image src="/Decores.png" fill />
+          </div>
+          <div className="w-[582px] h-[706px] mt-[4rem] relative">
+            <Image src="/dnqHero.png" width={700} height={1000} />
           </div>
         </div>
       </div>
