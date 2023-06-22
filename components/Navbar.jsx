@@ -40,7 +40,7 @@ const Navbar = () => {
           <div className="lg:flex hidden justify-between items-center gap-6">
             <div
               href=""
-              className="w-[120px] h-[40px] font-light text-[#333333] flex items-center justify-center rounded-xl border border-blue-400 hover:bg-blue-800"
+              className="w-[120px] h-[40px] font-light text-[#333333] flex items-center justify-center rounded-xl border border-blue-400 hover:bg-blue-800 hover:text-white"
             >
               <Link href="/login">Log In</Link>
             </div>
