@@ -10,8 +10,14 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <div>
+        <Frame1 />
+        {/* <Frame2 /> */}
+        <Frame3 />
+        <Frame4 />
+        <Frame5 />
+      </div>
+      {/* <div>
         <div className="relative h-screen">
           <div className="absolute inset-0">
             <Image src="/hero.png" width={1700} height={1000} alt="hero" />
@@ -22,11 +28,10 @@ export default function Home() {
             <Frame3 />
             <Frame4 />
             
-            {/* <Swipe /> */}
             <Frame5 />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

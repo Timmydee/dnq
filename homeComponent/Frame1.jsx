@@ -1,10 +1,71 @@
-import React from 'react'
-import styles from '@/styles'
+import React from "react";
+import styles from "@/styles";
+import Image from "next/image";
 
 const Frame1 = () => {
   return (
-    <div className={`${styles.innerWidth}`}>
-      <div className='flex justify-center items-center lg:h-[90vh] h-[70vh] my-auto'>
+    <div className={`${styles.innerWidth} px-[4rem] mt-[5rem] mb-[3rem]`}>
+      <div className="relative">
+        <div className="flex">
+          <div className=" flex-col justify-start items-start gap-[20px] inline-flex py-[3rem]">
+            <div className="p-[0px] flex-col justify-start items-start gap-[10px] flex">
+              <div className="text-zinc-800 text-[57px] font-extrabold">
+                Take your design <br />
+                career to a new level
+              </div>
+              <div className="w-[532px] text-zinc-800 text-[24px] font-normal">
+                Designers Query, every Designer's friend. <br />
+                Get expert answers to your questions as a Professional Designer.
+              </div>
+            </div>
+            <div className="px-[54px] pt-4 pb-[17px] bg-blue-500 rounded-lg justify-center items-center inline-flex">
+              <div className="text-white text-[18px] font-bold">
+                Get Started
+              </div>
+            </div>
+          </div>
+          {/* <div className="w-[117.67px] h-[150px] left-[864px] top-[138px] absolute">
+            <div className="w-[117.67px] h-[100.85px] left-[0px] top-[0px] absolute"></div>
+            <div className="w-[78.22px] h-[131.15px] left-[20.02px] top-[18.85px] absolute"></div>
+          </div>
+          <div className="w-[26px] h-[26px] left-[128px] top-[163px] absolute bg-amber-500 rounded-full" />
+          <div className="w-[26px] h-[26px] left-[314px] top-[738px] absolute bg-amber-500 rounded-full" />{" "} */}
+        </div>
+
+        <div className="">
+          <div className="w-[482px] h-[506px] left-[702px] top-[0] bottom-0 absolute">
+            <Image src="/dnqHero.png" fill />
+          </div>
+        </div>
+      </div>
+      {/* <div className="w-[1128px] h-[976px] relative">
+      <div className="w-[482px] h-[506px] left-[802px] top-[65px] absolute">
+        <Image src="/dnqHero.png" fill />
+      </div>
+
+      <div className="p-[0px] left-[74px] top-[327px] absolute flex-col justify-start items-start gap-[20px] inline-flex">
+        <div className="p-[0px] flex-col justify-start items-start gap-[10px] flex">
+          <div className="text-zinc-800 text-[57px] font-extrabold">
+            Take your design <br />
+            career to a new level
+          </div>
+          <div className="w-[532px] text-zinc-800 text-[24px] font-normal">
+            Designers Query, every Designer's friend. <br />
+            Get expert answers to your questions as a Professional Designer.
+          </div>
+        </div>
+        <div className="px-[54px] pt-4 pb-[17px] bg-blue-500 rounded-lg justify-center items-center inline-flex">
+          <div className="text-white text-[18px] font-bold">Get Started</div>
+        </div>
+      </div>
+      <div className="w-[117.67px] h-[150px] left-[864px] top-[138px] absolute">
+        <div className="w-[117.67px] h-[100.85px] left-[0px] top-[0px] absolute"></div>
+        <div className="w-[78.22px] h-[131.15px] left-[20.02px] top-[18.85px] absolute"></div>
+      </div>
+      <div className="w-[26px] h-[26px] left-[128px] top-[163px] absolute bg-amber-500 rounded-full" />
+      <div className="w-[26px] h-[26px] left-[314px] top-[738px] absolute bg-amber-500 rounded-full" /> */}
+      {/* </div> */}
+      {/* <div className='flex justify-center items-center lg:h-[90vh] h-[70vh] my-auto'>
         <div className='lg:w-[680px] w-[80%] lg:h-[377px] h-[227px] bg-white rounded-xl flex justify-center items-center'>
           <div className='w-full'>
             <div>
@@ -19,9 +80,9 @@ const Frame1 = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
-  )
-}
+  );
+};
 
-export default Frame1
+export default Frame1;

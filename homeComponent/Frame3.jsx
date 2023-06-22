@@ -32,7 +32,7 @@ export const help = [
 
 const Frame3 = () => {
   return (
-    <div className='w-full bg-[#038A7D] py-9'>
+    <div className='w-full bg-[#038A7D]'>
       <div className=''>
         <h3 className={`${styles.h5Style} text-center text-white font-bold`}>Helping all Designers get answers to there questions</h3>
         <div className='flex flex-wrap justify-evenly'>

@@ -10,21 +10,7 @@ const SignUp = () => {
   return (
     <div className={`${styles.innerWidth}`}>
       <div className=" h-[90vh] w-[100%]">
-      <div className="w-[100%]">
-            <Link
-              href="/"
-              className="lg:p-6 p-2 lg:block flex items-center justify-center"
-            >
-              <Image
-                src="/dnqLogo.png"
-                width={87}
-                height={87}
-                alt="Picture of the author"
-              />
-            </Link>
-          </div>
         <div className={`lg:w-[50%] mx-auto w-full`}>
-          
           <div className="">
             <h1
               className={`${styles.h2Style} text-center max-w-[500px] mx-auto`}
@@ -106,7 +92,7 @@ const SignUp = () => {
                     className={`${styles.flexCenter} ${styles.btnStyle} cursor-pointer my-3 w-full h-16 shadow-md hover:shadow-lg rounded-2xl hover:bg-red-700`}
                   >
                     <div className="flex items-center">
-                      <FcGoogle className="mr-2" size={40}/>
+                      <FcGoogle className="mr-2" size={40} />
                       <span>Sign In with Google</span>
                     </div>
                   </button>

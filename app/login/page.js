@@ -10,19 +10,6 @@ const Login = () => {
   return (
     <div className={`${styles.innerWidth}`}>
       <div className="h-[90vh] w-[100%]">
-        <div className="w-[100%]">
-          <Link
-            href="/"
-            className="lg:p-4 p-2 lg:block flex items-center justify-center"
-          >
-            <Image
-              src="/dnqLogo.png"
-              width={87}
-              height={87}
-              alt="Picture of the author"
-            />
-          </Link>
-        </div>
         <div className={`lg:w-[50%] mx-auto w-full`}>
           <div className="">
             <h1 className={`${styles.h2Style} text-center`}>Welcome back</h1>
