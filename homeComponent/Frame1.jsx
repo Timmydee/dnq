@@ -25,18 +25,18 @@ const Frame1 = () => {
         </div>
       </div>
 
-      <div className="relative lg:flex lg:flex-row flex-col lg:justify-between justify-center items-center w-full">
+      <div className="relative lg:flex lg:flex-row flex-col lg:justify-between justify-cente items-cente w-full">
         <div className="fle w-">
-          <div className=" flex-col lg:w-full max:w-[400px] justify-center lg:justify-start lg:items-start items-center inline-flex pt-[0.1rem] lg:pt-[3rem] mt-[1rem] lg:[4rem] ">
-            <div className="lg-w-full w-[320px]">
-              <div className="text-zinc-800 text-[30px] lg:text-[57px] font-extrabold lg:text-start text-center ">
+          <div className=" flex-col justify-center lg:justify-start lg:items-start items-center inline-flex pt-[0.1rem] lg:pt-[3rem] mt-[1rem] lg:[4rem] ">
+            <div className="lg-w-full w-[296px] mx-auto">
+              <h2 className="text-zinc-800 text-[30px] lg:text-[57px] font-extrabold lg:text-start text-center ">
                 Take your design
                 career to a new level
-              </div>
-              <div className="lg:w-[532px] text-zinc-800 text-[18px] pt-2 lg:text-[24px] font-normal w-[100%] lg:text-start text-center">
+              </h2>
+              <p className="lg:w-[532px] text-zinc-800 text-[18px] pt-2 lg:text-[24px] font-normal w-[100%] lg:text-start text-center">
                 Designers Query, every Designer's friend.
                 Get expert answers to your questions as a Professional Designer.
-              </div>
+              </p>
       
             </div>
             <div className="lg:px-[54px] px-[34px] pt-4 pb-[17px] mt-2  bg-blue-500 rounded-lg justify-center items-center inline-flex">
@@ -54,7 +54,7 @@ const Frame1 = () => {
         </div>
 
         <div className="relativ">
-          <div className="lg:w-[542px] lg:h-[688px] w-[300px] h-[400px] lg:mt-[4rem] mt-[0rem] relative">
+          <div className="lg:w-[542px] lg:h-[688px] w-[300px] h-[400px] lg:mt-[4rem] mt-[1.5rem] relative">
             <Image src="/dnqHero.png" fill />
           </div>
         </div>
