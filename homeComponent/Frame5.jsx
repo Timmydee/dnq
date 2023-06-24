@@ -15,7 +15,7 @@ const Frame5 = () => {
           <div className="flex justify-center items-center">
             <div>
               <h1
-                className={`${styles.h2Style} text-zinc-800 text-[40px] font-semibold lg:w-[708px] w-full text-center`}
+                className={`${styles.h2Style} text-zinc-800 lg:text-[40px] text-[20px] font-semibold lg:w-[708px] w-full text-center`}
               >
                 Join thousands of Designers Across the globe, together we learn
                 and grow

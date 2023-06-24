@@ -58,13 +58,14 @@ const Navbar = () => {
           </div>
 
           {toggle && (
-            <div className="bg-blue-500 absolute w-[50%] top-0 right-0 bottom-0 left-0 h-[100vh] rounded-lg">
+            <div className="bg-blue-500 absolute w-[70%] top-0 right-0 bottom-0 left-0 h-[100vh] rounded-lg">
               <div className="flex-col justify-center items-center p-4 text-white text-[16px] w-full text-lg ">
-                <div className="mt-6 text-center">
-                  <Link href="/about" onClick={() => setToggle(!toggle)}>About Us</Link>
+                <div className="mt-6 text-center" onClick={() => setToggle(!toggle)}>
+                  <Link href="/about">About Us</Link>
                 </div>
                 <div
                   href=""
+                  onClick={() => setToggle(!toggle)}
                   className="w-[130px] h-[40px] mx-auto font-light text-white lg:text-[#333333] mt-8 flex items-center justify-center rounded-xl border border-white hover:bg-blue-800"
                 >
                   <Link href="/login">Log In</Link>
@@ -72,6 +73,7 @@ const Navbar = () => {
 
                 <div
                   href=""
+                  onClick={() => setToggle(!toggle)}
                   className="w-[130px] h-[40px] mx-auto font-light mt-3 flex items-center justify-center rounded-xl bg-white hover:bg-blue-800 text-blue-500"
                 >
                   <Link href="/signup">Sign Up</Link>
