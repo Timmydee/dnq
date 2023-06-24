@@ -6,7 +6,7 @@ import Link from "next/link";
 const Frame5 = () => {
   return (
     <div>
-      <div className={`${styles.innerWidth} relative mb-[0rem]`}>
+      <div className={`${styles.innerWidth} relative mb-[2rem] mt-[4rem]`}>
         <div className="absolut">
           <Image src="/map.png" fill alt="map" />
         </div>
@@ -15,7 +15,7 @@ const Frame5 = () => {
           <div className="flex justify-center items-center">
             <div>
               <h1
-                className={`${styles.h2Style} text-[black] lg:w-[708px] w-full text-center`}
+                className={`${styles.h2Style} text-zinc-800 text-[40px] font-semibold lg:w-[708px] w-full text-center`}
               >
                 Join thousands of Designers Across the globe, together we learn
                 and grow

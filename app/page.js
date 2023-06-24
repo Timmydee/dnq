@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import Frame1 from "@/homeComponent/Frame1";
-import Frame2 from "@/homeComponent/Frame2";
 import Frame3 from "@/homeComponent/Frame3";
 import Frame4 from "@/homeComponent/Frame4";
 import Frame5 from "@/homeComponent/Frame5";
@@ -12,9 +11,8 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <div>
+      <div className="font-gentium">
         <Frame1 />
-        {/* <Frame2 /> */}
         <Frame3 />
         <Unique />
         <Testimonial />

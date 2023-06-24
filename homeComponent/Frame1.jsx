@@ -11,24 +11,24 @@ const Frame1 = () => {
         <div className="w-[922px] h-[556px] top-[0%] bottom-[0%] right-0 absolute hidden lg:block md:hidden">
           <Image src="/Decores.png" fill />
         </div>
-        <div className=" lg:w-[90px] lg:h-[105px] w-[26px] h-[33px]  lg:top-[15%] top-[63%] bottom-[0%] right-[40%] absolute">
+        <div className=" lg:w-[90px] lg:h-[105px] w-[26px] h-[33px] lg:top-[15%] top-[65%] bottom-[0%] lg:right-[40%] right-[69%]  absolute">
           <Image src="/bulb.png" fill />
         </div>
-        <div className="w-[83px] h-[96px] top-[60%] bottom-[0%] right-[45%] absolute  hidden lg:block md:hidden">
+        <div className="lg:w-[83px] lg:h-[96px] w-[26px] h-[33px] lg:top-[60%] top-[70%] bottom-[0%] lg:right-[45%] right-[5%] absolute  ">
           <Image src="/kite.png" fill />
         </div>
-        <div className="w-[83px] h-[96px] top-[50%] bottom-[0%] right-[0%] absolute hidden lg:block md:hidden">
-          <Image src="/star.png" fill />0
+        <div className="lg:w-[83px] lg:h-[96px] w-[26px] h-[33px] top-[85%] lg:top-[50%] bottom-[0%] right-[0%] absolute ">
+          <Image src="/star.png" fill />
         </div>
-        <div className="w-[83px] h-[96px] top-[76%] bottom-[0%] right-[35%] absolute hidden lg:block md:hidden">
+        <div className="lg:w-[83px] lg:h-[96px] w-[26px] h-[33px] lg:top-[76%] top-[80%] bottom-[0%] lg:right-[35%] right-[83%] absolute">
           <Image src="/star.png" fill />
         </div>
       </div>
 
-      <div className="relative lg:flex lg:flex-row flex-col lg:justify-between justify-cente items-cente w-full">
+      <div className="relative lg:flex lg:flex-row flex-col lg:justify-between justify-center items-center w-full">
         <div className="fle w-">
           <div className=" flex-col justify-center lg:justify-start lg:items-start items-center inline-flex pt-[0.1rem] lg:pt-[3rem] mt-[1rem] lg:[4rem] ">
-            <div className="lg-w-full w-[296px] mx-auto">
+            <div className="lg:w-full w-[296px]">
               <h2 className="text-zinc-800 text-[30px] lg:text-[57px] font-extrabold lg:text-start text-center ">
                 Take your design
                 career to a new level
@@ -54,10 +54,12 @@ const Frame1 = () => {
         </div>
 
         <div className="relativ">
-          <div className="lg:w-[542px] lg:h-[688px] w-[300px] h-[400px] lg:mt-[4rem] mt-[1.5rem] relative">
+          <div className="lg:w-[542px] lg:h-[688px] w-[220px] h-[280px] lg:mt-[4rem] mt-[1.5rem] relative">
             <Image src="/dnqHero.png" fill />
           </div>
+          {/* <div className="w-[100%] h-[20px] bg-white opacity-10 block lg:hidden md:hidden"/> */}
         </div>
+        
       </div>
       {/* <div className="w-[1128px] h-[976px] relative">
       <div className="w-[482px] h-[506px] left-[802px] top-[65px] absolute">

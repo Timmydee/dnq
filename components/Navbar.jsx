@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className={`${styles.innerWidth} relative z-20`}>
       <div
-        className={` ${styles.xPaddings} py-4 flex justify-between items-center shadow-lg `}
+        className={` ${styles.xPaddings} py-2 lg:py-3 flex justify-between items-center shadow-lg `}
       >
         <div className="w-20 h-[76.91px] relative">
         <Link href="/">
@@ -58,24 +58,21 @@ const Navbar = () => {
           </div>
 
           {toggle && (
-            <div className="bg-blue-500 absolute top-16 w-[40%] right-6 h-[30vh] rounded-lg">
-              <div className="flex-col justify-center items-center p-4 text-white text-[16px] text-sm">
-                <div className="text-[#0074D9]">
-                  <Link href="/">Home</Link>
-                </div>
-                <div className="mt-6">
-                  <Link href="/about">About Us</Link>
+            <div className="bg-blue-500 absolute w-[50%] top-0 right-0 bottom-0 left-0 h-[100vh] rounded-lg">
+              <div className="flex-col justify-center items-center p-4 text-white text-[16px] w-full text-lg ">
+                <div className="mt-6 text-center">
+                  <Link href="/about" onClick={() => setToggle(!toggle)}>About Us</Link>
                 </div>
                 <div
                   href=""
-                  className="w-[80px] h-[30px] font-light text-white lg:text-[#333333] mt-8 flex items-center justify-center rounded-xl border border-blue-400 hover:bg-blue-800"
+                  className="w-[130px] h-[40px] mx-auto font-light text-white lg:text-[#333333] mt-8 flex items-center justify-center rounded-xl border border-white hover:bg-blue-800"
                 >
                   <Link href="/login">Log In</Link>
                 </div>
 
                 <div
                   href=""
-                  className="w-[80px] h-[30px] font-light mt-3 flex items-center justify-center rounded-xl bg-blue-500 text-white hover:bg-blue-800"
+                  className="w-[130px] h-[40px] mx-auto font-light mt-3 flex items-center justify-center rounded-xl bg-white hover:bg-blue-800 text-blue-500"
                 >
                   <Link href="/signup">Sign Up</Link>
                 </div>
