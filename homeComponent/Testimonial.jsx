@@ -61,15 +61,15 @@ const Testimonial = () => {
     <div className="w-full ">
       <div className="lg:flex w-[100%] mx-auto justify-between overflow-hidden hidden ">
         {testimonies.map((testimony, index) => (
-          <div className={` flex flex-col items-center shadow-md ${
-            index === slide ? 'w-[40%] h-[271px] relative bg-white rounded-[31.87px] shadow-lg' : 'shadow-md w-[30%] h-[235px] pl-12 pr-[59.55px] pt-10 pb-[12px] bg-white rounded-3xl justify-start items-center inline-flex'
+          <div className={` flex flex-col items-center ${
+            index === slide ? 'w-[40%] h-[271px] relative bg-white rounded-[31.87px]' : ' w-[30%] h-[235px] pl-12 pr-[59.55px] pt-10 pb-[12px] bg-white rounded-3xl justify-start items-center inline-flex'
           }`}>
             
               <div className={`flex items-center justify-center ${index === slide ? 'w-[225px] h-[225px]' : 'w-[144px] h-[144px]'}`}>
                 <img src={testimony.imgUrl} fill alt={testimony.title} />
               </div>
 
-              <div className="flex flex-col items-center justify-center bg-white shadow-zinc-700">
+              <div className={`flex flex-col items-center justify-center bg-white ${index === slide ? "shadow-lg px-3" : "px-2 shadow-md"}`}>
                 <h4 className="text-blue-500 text-[16px] font-semibold mt-1 mb-2">{testimony.title}</h4>
                 <div className="w-[100%] h-[159px] text-zinc-800 text-[12px] font-normal">
                   <span>{testimony.desc} </span>
