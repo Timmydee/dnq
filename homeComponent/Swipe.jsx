@@ -1,12 +1,11 @@
 "use client";
 import React, { useState } from "react";
 
-// import './Speak.scss'
-// import { images } from '../../constant'
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import styles from "@/styles";
@@ -34,38 +33,45 @@ const events = [
     title: "Esther - Graphic Designer",
     location: "Being a part of Designers Query has connected me with talented designers from around the world. I've had the opportunity to collaborate on projects, exchange ideas, and receive valuable feedback on my work. The platform provides a wealth of learning resources, tutorials, and expert articles that have helped me stay updated with the latest design trends. Designers Query is a must-have for any designer looking to enhance their skills and build meaningful relationships within the design community.",
   },
+  {
+    imgUrl: "/swipe3.png",
+    title: "Learning a skill in Web3.",
+    location: "Being a part of Designers Query has connected me with talented designers from around the world. I've had the opportunity to collaborate on projects, exchange ideas, and receive valuable feedback on my work. The platform provides a wealth of learning resources, tutorials, and expert articles that have helped me stay updated with the latest design trends. Designers Query is a must-have for any designer looking to enhance their skills and build meaningful relationships within the design community.",
+
+  },
+  {
+    imgUrl: "/swipe3.png",
+    title: "Esther - Graphic Designer",
+    location: "Being a part of Designers Query has connected me with talented designers from around the world. I've had the opportunity to collaborate on projects, exchange ideas, and receive valuable feedback on my work. The platform provides a wealth of learning resources, tutorials, and expert articles that have helped me stay updated with the latest design trends. Designers Query is a must-have for any designer looking to enhance their skills and build meaningful relationships within the design community.",
+  },
 ];
 
 const Swipe = () => {
-  const [sliderRef, setSliderRef] = useState(null);
+  
+    
+  const [sliderRef, setSliderRef] = useState(null)
 
   const sliderSettings = {
-    // arrows: false,
-    // slidesToShow: 3,
-    // slidesToScroll: 1,
-    // infinite: false,
-    className: "flex items-center justify-center",
-      centerMode: true,
-      infinite: true,
-      centerPadding: "60px",
-      slidesToShow: 3,
-      speed: 500,
-
-    // responsive: [
-    //   {
-    //     breakpoint: 1024,
-    //     settings: {
-    //       slidesToShow: 2,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 800,
-    //     settings: {
-    //       slidesToShow: 1,
-    //     },
-    //   },
-    // ],
-  };
+    arrows: false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    infinite: false,
+    
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  }
 
   return (
     <div className={`${styles.innerWidth}`}>

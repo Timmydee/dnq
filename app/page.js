@@ -5,6 +5,7 @@ import Frame3 from "@/homeComponent/Frame3";
 import Frame4 from "@/homeComponent/Frame4";
 import Frame5 from "@/homeComponent/Frame5";
 import Swipe from "@/homeComponent/Swipe";
+import Testimonial from "@/homeComponent/Testimonial";
 import Unique from "@/homeComponent/unique";
 import Image from "next/image";
 
@@ -16,6 +17,8 @@ export default function Home() {
         {/* <Frame2 /> */}
         <Frame3 />
         <Unique />
+        <Testimonial />
+        {/* <Swipe /> */}
         {/* <Frame4 /> */}
         <Frame5 />
       </div>

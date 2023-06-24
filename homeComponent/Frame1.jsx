@@ -5,35 +5,36 @@ import Image from "next/image";
 const Frame1 = () => {
   return (
     <div
-      className={`${styles.innerWidth} h-full relative px-[4rem] mt-[0rem] mb-[3rem]`}
+      className={`${styles.innerWidth} h-full relative px-[4rem] mt-[0rem] mb-[0rem]`}
     >
-      <div className="hidden lg:block md:hidden">
-        <div className="w-[922px] h-[856px] top-[0%] bottom-[0%] right-0 absolute">
+      <div className="">
+        <div className="w-[922px] h-[556px] top-[0%] bottom-[0%] right-0 absolute hidden lg:block md:hidden">
           <Image src="/Decores.png" fill />
         </div>
-        <div className="w-[90px] h-[105px] top-[15%] bottom-[0%] right-[35%] absolute">
+        <div className=" lg:w-[90px] lg:h-[105px] w-[26px] h-[33px]  lg:top-[15%] top-[63%] bottom-[0%] right-[40%] absolute">
           <Image src="/bulb.png" fill />
         </div>
-        <div className="w-[83px] h-[96px] top-[60%] bottom-[0%] right-[45%] absolute">
+        <div className="w-[83px] h-[96px] top-[60%] bottom-[0%] right-[45%] absolute  hidden lg:block md:hidden">
           <Image src="/kite.png" fill />
         </div>
-        <div className="w-[83px] h-[96px] top-[50%] bottom-[0%] right-[0%] absolute">
-          <Image src="/star.png" fill />
+        <div className="w-[83px] h-[96px] top-[50%] bottom-[0%] right-[0%] absolute hidden lg:block md:hidden">
+          <Image src="/star.png" fill />0
         </div>
-        <div className="w-[83px] h-[96px] top-[76%] bottom-[0%] right-[35%] absolute">
+        <div className="w-[83px] h-[96px] top-[76%] bottom-[0%] right-[35%] absolute hidden lg:block md:hidden">
           <Image src="/star.png" fill />
         </div>
       </div>
-      <div className="relative lg:flex lg:flex-row flex-col justify-between items-center">
-        <div className="fle">
-          <div className=" flex-col justify-center lg:justify-start lg:items-start items-center inline-flex py-[3rem] mt-[4rem] w-full">
-            <div className="">
-              <div className="text-zinc-800 text-[27px] lg:text-[57px] font-extrabold lg:text-start text-center ">
-                Take your design <br />
+
+      <div className="relative lg:flex lg:flex-row flex-col lg:justify-between justify-center items-center w-full">
+        <div className="fle w-">
+          <div className=" flex-col justify-center lg:justify-start lg:items-start items-center inline-flex pt-[0.1rem] lg:pt-[3rem] mt-[4rem] ">
+            <div className="lg-w-full w-[full]">
+              <div className="text-zinc-800 text-[30px] lg:text-[57px] font-extrabold lg:text-start text-center ">
+                Take your design
                 career to a new level
               </div>
               <div className="lg:w-[532px] text-zinc-800 text-[18px] pt-2 lg:text-[24px] font-normal w-[100%] lg:text-start text-center">
-                Designers Query, every Designer's friend. <br />
+                Designers Query, every Designer's friend.
                 Get expert answers to your questions as a Professional Designer.
               </div>
       
@@ -53,7 +54,7 @@ const Frame1 = () => {
         </div>
 
         <div className="relativ">
-          <div className="lg:w-[542px] lg:h-[588px] w-[300px] h-[400px] mt-[4rem] relative">
+          <div className="lg:w-[542px] lg:h-[688px] w-[300px] h-[400px] lg:mt-[4rem] mt-[0rem] relative">
             <Image src="/dnqHero.png" fill />
           </div>
         </div>

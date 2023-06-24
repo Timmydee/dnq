@@ -6,12 +6,12 @@ const Unique = () => {
   return (
     <div className={`${styles.innerWidth} px-[4rem]`}>
       <div className="">
-        <p className={`${styles.pStyle2} text-[#333333] text-center`}>
+        <p className={`${styles.pStyle2} text-[#333333] text-center py-6`}>
           No matter your design niche, we've got a space for you in Designer's
           Query.
         </p>
 
-        <div className="lg:flex lg:flex-row flex-col justify-between items-center lg:my-[6rem] my-[2rem] lg:gap-0 gap-10">
+        <div className="lg:flex lg:flex-row flex-col justify-between items-center lg:my-[6rem] my-[2rem] lg:space-y-0 space-y-6">
           <div className="fle fle-col items-center justify-start">
             <h4 className="text-zinc-800 text-[24px] lg:text-[39px] font-extrabold lg:text-start text-center ">
               Our Uniqueness

@@ -7,7 +7,6 @@ const page = () => {
   return (
     <div>
         <div>
-            <Navbar />
             <div className='relative lg:w-[100%] lg:h-[450px] h-[300px] w-[100%]'>
               <div className='overlay'></div>
                 <Image src='/about.png' width={1500} height={450} alt='about' className='object-contain' />
