@@ -27,8 +27,8 @@ const Frame1 = () => {
 
       <div className="relative lg:flex lg:flex-row flex-col lg:justify-between justify-center items-center w-full">
         <div className="fle w-">
-          <div className=" flex-col justify-center lg:justify-start lg:items-start items-center inline-flex pt-[0.1rem] lg:pt-[3rem] mt-[1rem] lg:[4rem] ">
-            <div className="lg-w-full w-[full]">
+          <div className=" flex-col lg:w-full max:w-[400px] justify-center lg:justify-start lg:items-start items-center inline-flex pt-[0.1rem] lg:pt-[3rem] mt-[1rem] lg:[4rem] ">
+            <div className="lg-w-full w-[320px]">
               <div className="text-zinc-800 text-[30px] lg:text-[57px] font-extrabold lg:text-start text-center ">
                 Take your design
                 career to a new level
