@@ -1,3 +1,5 @@
+const { Andada_Pro } = require('next/font/google');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -8,6 +10,13 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily:{
+      sans: ["Source Sans Pro", "sans-serif"],
+      serif: ["Andada Pro", "serif"],
+      open: ["Open Sans", "sans-serif"],
+      pius: ["Gentium Pius", "serif"]
+    },
+
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
