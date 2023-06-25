@@ -20,94 +20,21 @@ const Login = () => {
 
   return (
     <div className={`${styles.innerWidth}`}>
-      <div className="h-[190vh] w-[100%]">
-
-        <div className="w-[100%] m-auto h-[100px] px-20px flex justify-between lg:shadow-md shadow-blue-600">
-
-          <div className="lg:w-[10%] w-[20%]">
-            <Link
-              href="/"
-              className="lg:p-4 p-2 lg:block flex items-center justify-center"
-            >
-              <Image
-                className="w-[90px] h-[85px] lg:w-[80.155px] lg:h-[76.911px]"
-                src="/dnqLogo.png"
-                width={80.155}
-                height={76.911}
-                alt="Picture of the author"
-              />
-            </Link>
-          </div>
-
-          <div className="w-[28%] lg:flex font-open justify-between lg:items-center hidden lg:h-10 m-7">
-              <Link href="/about"
-                className="text-22 text-#333 font-bold lg:w-[30]"
-              >
-                About Us
-              </Link>
-
-              <div className="w-[120px] h-[58px] font-open text-[16px] text-[#333333] font-semibold flex items-center justify-center rounded-[10px] border border-blue-400 hover:bg-blue-800 hover:text-white">
-                <Link href="/login"
-                  className=""
-                >
-                  Login
-                </Link>
-              </div>
-              
-              
-
-              <button className="w-[120px] h-[58px] font-open text-[16px] font-semibold text-[#fff] bg-sky-500 flex items-center justify-center rounded-[10px] border border-blue-400 hover:bg-blue-800">
-                <Link href="/signup"
-                  className=""
-                >
-                  SignUp
-                </Link>
-              </button>
-          </div>
-
-          <div className="block lg:hidden mx-4 my-4 flex-1">
-                <div onClick={handleToggle} className="relative flex justify-end">
-                  {!toggle ? (
-                    <BiMenuAltRight color="black" size={30} />
-                  ) : (
-                    <AiOutlineClose color="black" size={30}/>
-                  )}
-            </div>
-
-            {toggle && (
-              <div className="bg-blue-500 absolute top-16 w-[40%] right-6 h-[30vh] rounded-lg">
-                <div className="flex-col justify-center items-center p-4 text-white text-[16px] text-sm">
-                  <div className="text-[#0074D9]">
-                    <Link href="/">Home</Link>
-                  </div>
-                  <div className="mt-6">
-                    <Link href="/about">About Us</Link>
-                  </div>
-                  <div 
-                    href=""
-                    className="w-[80px] h-[30px] font-light text-white lg:text-[#333333] mt-8 flex items-center justify-center rounded-xl border border-blue-400 hover:bg-blue-800"
-                  >
-                    <Link href="/login">Log In</Link>
-                  </div>
-
-                  <div
-                    href=""
-                    className="w-[80px] h-[30px] font-light mt-3 flex items-center justify-center rounded-xl bg-blue-500 text-white hover:bg-blue-800"
-                  >
-                    <Link href="/signup">Sign Up</Link>
-                  </div>
-                </div>
-              </div>
-            )}
-          </div>
-
-
+      <div className="h-[90vh] w-[100%]">
+        <div className="w-[100%]">
+          <Link
+            href="/"
+            className="lg:p-4 p-2 lg:block flex items-center justify-center"
+          >
+            <Image
+              src="/dnqLogo.png"
+              width={87}
+              height={87}
+              alt="Picture of the author"
+            />
+          </Link>
         </div>
-
-        
-        
-
-        <div className={"lg:w-[50%] mx-auto w-full"}>
+        <div className={`lg:w-[50%] mx-auto w-full`}>
           <div className="">
             <div className="h-20 lg:h-20"></div>
 
