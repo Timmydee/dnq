@@ -20,20 +20,7 @@ const passwordForget = () => {
         <div>
             <div className="w-[100%] m-auto h-[100px] px-20px flex justify-between lg:shadow-md shadow-indigo-300">
 
-                <div className="lg:w-[10%] w-[20%]">
-                    <Link
-                        href="/"
-                        className="lg:p-4 p-2 lg:block flex items-center justify-center"
-                    >
-                        <Image
-                        className="w-[90px] h-[85px] lg:w-[80.155px] lg:h-[76.911px]"
-                        src="/dnqLogo.png"
-                        width={80.155}
-                        height={76.911}
-                        alt="Picture of the author"
-                        />
-                    </Link>
-                </div>
+                
 
                 <div className="w-[28%] lg:flex justify-between lg:items-center hidden lg:h-10 m-7">
                     <Link href="/about"
