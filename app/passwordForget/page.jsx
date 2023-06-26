@@ -18,7 +18,7 @@ const passwordForget = () => {
     return (  
 
         <div>
-            <div className="w-[100%] m-auto h-[100px] px-20px flex justify-between lg:shadow-md shadow-indigo-300">
+            <div className="w-[100%] m-auto px-20px flex justify-between">
 
 
                 <div className="block lg:hidden mx-4 my-4 flex-1">
