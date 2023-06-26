@@ -20,33 +20,6 @@ const passwordForget = () => {
         <div>
             <div className="w-[100%] m-auto h-[100px] px-20px flex justify-between lg:shadow-md shadow-indigo-300">
 
-                
-
-                <div className="w-[28%] lg:flex justify-between lg:items-center hidden lg:h-10 m-7">
-                    <Link href="/about"
-                        className="text-22 text-#333 font-bold lg:w-[30]"
-                    >
-                        About Us
-                    </Link>
-
-                    <div className="w-[120px] h-[58px] text-[16px] text-[#333333] font-semibold flex items-center justify-center rounded-[10px] border border-blue-400 hover:bg-blue-800 hover:text-white">
-                    <Link href="/login"
-                        className=""
-                        >
-                            Login
-                        </Link>
-                    </div>
-                        
-                        
-
-                    <button className="w-[120px] h-[58px] text-[16px] font-semibold text-[#fff] bg-sky-500 flex items-center justify-center rounded-[10px] border border-blue-400 hover:bg-blue-800">
-                            <Link href="/signup"
-                                className=""
-                            >
-                                SignUp
-                            </Link>
-                    </button>
-                </div>
 
                 <div className="block lg:hidden mx-4 my-4 flex-1">
                     <div onClick={handleToggle} className="relative flex justify-end">
