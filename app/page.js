@@ -1,3 +1,4 @@
+'use client'
 import Navbar from "@/components/Navbar";
 import Frame1 from "@/homeComponent/Frame1";
 import Frame3 from "@/homeComponent/Frame3";
@@ -7,6 +8,8 @@ import Swipe from "@/homeComponent/Swipe";
 import Testimonial from "@/homeComponent/Testimonial";
 import Unique from "@/homeComponent/unique";
 import Image from "next/image";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 export default function Home() {
   return (
