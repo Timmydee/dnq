@@ -68,10 +68,11 @@ const passwordForget = () => {
                         <div className="lg:w-[55%] h-[100vh] lg:h-[65vh] mx-auto w-full">
                         <div className="h-20 lg:h-[20px]"></div>
 
-                        <h1 className={`${styles.h2Style} font-serif font-bold text-center text-47 mt-30`}>Forget Password</h1>
+                        <h1 className={`${styles.h2Style} font-serif font-bold text-center text-47 mt-30`}>Forgot Password</h1>
                         <p className={`${styles.pStyle} text-center font-sans px-5 `}>
                             Enter your email for vertification process, we will send 4digits code to your mail.
                         </p>
+                        
 
                         <div className="lg:h-[25px]"></div>
 
