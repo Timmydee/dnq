@@ -43,17 +43,16 @@ const page = () => {
               everyone.
             </p>
           </div>
-          <div className="absolute bottom-10 right-0">
-            <Image src="/softstar.png" width={98} height={94} className="rotate-animation"/>
+          <div className="absolute bottom-10 right-0 lg:w-[83px] lg:h-[96px] w-[26px] h-[33px]">
+            <Image src="/softstar.png" fill className="rotate-animation"/>
           </div>
-          <div className="absolute bottom-10 left-20">
-            <Image src="/kite.png" width={98} height={94} />
+          <div className="absolute bottom-10 left-20 lg:w-[83px] lg:h-[96px] w-[26px] h-[33px]">
+            <Image src="/kite.png" fill />
           </div>
-          <div className="absolute top-10 left-20">
+          <div className="absolute top-10 left-20 lg:w-[83px] lg:h-[96px] w-[26px] h-[33px]">
             <Image
               src="/softstar.png"
-              width={68}
-              height={64}
+              fill
               className="rotate-animation"
             />
           </div>

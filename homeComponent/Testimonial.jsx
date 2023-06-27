@@ -59,7 +59,7 @@ const Testimonial = () => {
   };
   return (
     <div className="w-full ">
-      <div className="lg:flex w-[100%] mx-auto justify-between overflow-hidden  ">
+      <div className="lg:flex w-[100%] mx-auto justify-between overflow-hidden hidden  ">
         {testimonies.map((testimony, index) => (
           <div className={` flex flex-col items-center ${
             index === slide ? 'w-[40%] h-[271px] relative bg-white rounded-[31.87px]' : ' w-[30%] h-[235px] pl-12 pr-[59.55px] pt-10 pb-[12px] bg-white rounded-3xl justify-start items-center inline-flex'

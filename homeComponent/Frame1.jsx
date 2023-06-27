@@ -46,12 +46,9 @@ const Frame1 = () => {
               </Link>
             </div>
           </div>
-          <div className="w-[117.67px] h-[150px] left-[864px] top-[138px] absolute">
-            <div className="w-[117.67px] h-[100.85px] left-[0px] top-[0px] absolute"></div>
-            <div className="w-[78.22px] h-[131.15px] left-[20.02px] top-[18.85px] absolute"></div>
-          </div>
-          <div className="w-[20px] h-[20px] left-[128px] top-[30%] absolute bg-amber-500 rounded-full" />
-          <div className="w-[20px] h-[20px] left-[314px] bottom-[10%] absolute bg-amber-500 rounded-full" />{" "}
+          
+          <div className="w-[20px] h-[20px] left-[128px] top-[30%] absolute bg-amber-500 rounded-full lg:block hidden" />
+          <div className="w-[20px] h-[20px] left-[314px] bottom-[10%] absolute bg-amber-500 rounded-full lg:block hidden" />{" "}
         </div>
 
         <div className="relativ">
