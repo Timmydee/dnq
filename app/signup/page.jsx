@@ -21,48 +21,6 @@ const SignUp = () => {
   return (
     <div className={`${styles.innerWidth}`}>
       <div className=" h-full w-[100%]">
-        <div className="w-[100%] m-auto px-20px flex justify-between">
-
-          
-
-          <div className="block lg:hidden mx-4 my-4 flex-1">
-                <div onClick={handleToggle} className="relative flex justify-end">
-                  {!toggle ? (
-                    <BiMenuAltRight color="black" size={30} />
-                  ) : (
-                    <AiOutlineClose color="black" size={30}/>
-                  )}
-            </div>
-
-            {toggle && (
-              <div className="bg-blue-500 absolute top-16 w-[40%] right-6 h-[30vh] rounded-lg">
-                <div className="flex-col justify-center items-center p-4 text-white text-[16px] text-sm">
-                  <div className="text-[#0074D9]">
-                    <Link href="/">Home</Link>
-                  </div>
-                  <div className="mt-6">
-                    <Link href="/about">About Us</Link>
-                  </div>
-                  <div 
-                    href=""
-                    className="w-[80px] h-[30px] font-light text-white lg:text-[#333333] mt-8 flex items-center justify-center rounded-xl border border-blue-400 hover:bg-blue-800"
-                  >
-                    <Link href="/login">Log In</Link>
-                  </div>
-
-                  <div
-                    href=""
-                    className="w-[80px] h-[30px] font-light mt-3 flex items-center justify-center rounded-xl bg-blue-500 text-white hover:bg-blue-800"
-                  >
-                    <Link href="/signup">Sign Up</Link>
-                  </div>
-                </div>
-              </div>
-            )}
-          </div>
-
-
-        </div>
 
         <div className={`lg:w-[50%] mx-auto w-full`}>
           <div className="h-20 lg:h-20"></div>
