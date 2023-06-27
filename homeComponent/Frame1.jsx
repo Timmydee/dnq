@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "@/styles";
 import Image from "next/image";
+import Link from "next/link";
 
 const Frame1 = () => {
   return (
@@ -39,18 +40,18 @@ const Frame1 = () => {
               </p>
       
             </div>
-            <div className="lg:px-[54px] px-[34px] pt-4 pb-[17px] mt-2  bg-blue-500 rounded-lg justify-center items-center inline-flex">
-              <div className="text-white text-[16px] lg:text-[18px] font-bold">
+            <div className="lg:px-[54px] px-[34px] pt-4 pb-[17px] mt-2 cursor-pointer bg-blue-500 hover:bg-blue-600 rounded-lg justify-center items-center inline-flex">
+              <Link href='/' className="text-white text-[16px] lg:text-[18px] font-bold">
                 Get Started
-              </div>
+              </Link>
             </div>
           </div>
-          {/* <div className="w-[117.67px] h-[150px] left-[864px] top-[138px] absolute">
+          <div className="w-[117.67px] h-[150px] left-[864px] top-[138px] absolute">
             <div className="w-[117.67px] h-[100.85px] left-[0px] top-[0px] absolute"></div>
             <div className="w-[78.22px] h-[131.15px] left-[20.02px] top-[18.85px] absolute"></div>
           </div>
-          <div className="w-[26px] h-[26px] left-[128px] top-[163px] absolute bg-amber-500 rounded-full" />
-          <div className="w-[26px] h-[26px] left-[314px] top-[738px] absolute bg-amber-500 rounded-full" />{" "} */}
+          <div className="w-[20px] h-[20px] left-[128px] top-[30%] absolute bg-amber-500 rounded-full" />
+          <div className="w-[20px] h-[20px] left-[314px] bottom-[10%] absolute bg-amber-500 rounded-full" />{" "}
         </div>
 
         <div className="relativ">
@@ -61,49 +62,7 @@ const Frame1 = () => {
         </div>
         
       </div>
-      {/* <div className="w-[1128px] h-[976px] relative">
-      <div className="w-[482px] h-[506px] left-[802px] top-[65px] absolute">
-        <Image src="/dnqHero.png" fill />
-      </div>
 
-      <div className="p-[0px] left-[74px] top-[327px] absolute flex-col justify-start items-start gap-[20px] inline-flex">
-        <div className="p-[0px] flex-col justify-start items-start gap-[10px] flex">
-          <div className="text-zinc-800 text-[57px] font-extrabold">
-            Take your design <br />
-            career to a new level
-          </div>
-          <div className="w-[532px] text-zinc-800 text-[24px] font-normal">
-            Designers Query, every Designer's friend. <br />
-            Get expert answers to your questions as a Professional Designer.
-          </div>
-        </div>
-        <div className="px-[54px] pt-4 pb-[17px] bg-blue-500 rounded-lg justify-center items-center inline-flex">
-          <div className="text-white text-[18px] font-bold">Get Started</div>
-        </div>
-      </div>
-      <div className="w-[117.67px] h-[150px] left-[864px] top-[138px] absolute">
-        <div className="w-[117.67px] h-[100.85px] left-[0px] top-[0px] absolute"></div>
-        <div className="w-[78.22px] h-[131.15px] left-[20.02px] top-[18.85px] absolute"></div>
-      </div>
-      <div className="w-[26px] h-[26px] left-[128px] top-[163px] absolute bg-amber-500 rounded-full" />
-      <div className="w-[26px] h-[26px] left-[314px] top-[738px] absolute bg-amber-500 rounded-full" /> */}
-      {/* </div> */}
-      {/* <div className='flex justify-center items-center lg:h-[90vh] h-[70vh] my-auto'>
-        <div className='lg:w-[680px] w-[80%] lg:h-[377px] h-[227px] bg-white rounded-xl flex justify-center items-center'>
-          <div className='w-full'>
-            <div>
-              <h1 className={`${styles.h2Style} text-[#0074D9] text-center`}>Designers Help Desk</h1>
-              <p className={`${styles.pStyle2} mt-1 text-[#333333] text-center`}>Where questions get answered and designers thrive</p>
-              </div>
-              <div className='flex items-center justify-center'>
-              <input 
-                placeholder='Search'
-                className='lg:w-[70%] md:w-[80%] w-[92%] h-12 border mt-5 rounded-xl shadow-sm hover:shadow-lg border-[#333333] p-[10px] lg:p-[20px]'
-              />
-            </div>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };

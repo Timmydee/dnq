@@ -20,7 +20,7 @@ const SignUp = () => {
 
   return (
     <div className={`${styles.innerWidth}`}>
-      <div className=" h-[90vh] w-[100%]">
+      <div className=" h-full w-[100%]">
         <div className="w-[100%] m-auto px-20px flex justify-between">
 
           
@@ -194,7 +194,7 @@ const SignUp = () => {
 
         <div className="lg:h-[90px] h-[150px]"></div>
 
-        <div className="w-[100%] h-[20px] lg:px-16 px-1 flex  lg:flex-row flex-col justify-center lg:justify-between items-center py-6 text-[#343A40] font-light lg:text-[16px] text-[14px] ">
+        {/* <div className="w-[100%] h-[20px] lg:px-16 px-1 flex  lg:flex-row flex-col justify-center lg:justify-between items-center py-6 text-[#343A40] font-light lg:text-[16px] text-[14px] ">
                  <div className="flex lg:flex-row flex-col lg:gap-6 gap-1 items-center ">
                     <p>© 2023 Designers Query</p>
                     <p>Terms and Conditions</p>
@@ -203,7 +203,7 @@ const SignUp = () => {
               <div>
               <p>English</p>
             </div>
-          </div>
+          </div> */}
         {/* <div className="w-[50%] h-full hidden lg:block">
           <div className="w-[100%] h-[100%]">
             <Image src="/log.png" width={800} height={1200} alt="login" />
