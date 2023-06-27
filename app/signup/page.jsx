@@ -20,8 +20,49 @@ const SignUp = () => {
 
   return (
     <div className={`${styles.innerWidth}`}>
-      <div className=" h-[90vh] w-[100%]">
-        
+      <div className=" h-full w-[100%]">
+        <div className="w-[100%] m-auto px-20px flex justify-between">
+
+          
+
+          <div className="block lg:hidden mx-4 my-4 flex-1">
+                <div onClick={handleToggle} className="relative flex justify-end">
+                  {!toggle ? (
+                    <BiMenuAltRight color="black" size={30} />
+                  ) : (
+                    <AiOutlineClose color="black" size={30}/>
+                  )}
+            </div>
+
+            {toggle && (
+              <div className="bg-blue-500 absolute top-16 w-[40%] right-6 h-[30vh] rounded-lg">
+                <div className="flex-col justify-center items-center p-4 text-white text-[16px] text-sm">
+                  <div className="text-[#0074D9]">
+                    <Link href="/">Home</Link>
+                  </div>
+                  <div className="mt-6">
+                    <Link href="/about">About Us</Link>
+                  </div>
+                  <div 
+                    href=""
+                    className="w-[80px] h-[30px] font-light text-white lg:text-[#333333] mt-8 flex items-center justify-center rounded-xl border border-blue-400 hover:bg-blue-800"
+                  >
+                    <Link href="/login">Log In</Link>
+                  </div>
+
+                  <div
+                    href=""
+                    className="w-[80px] h-[30px] font-light mt-3 flex items-center justify-center rounded-xl bg-blue-500 text-white hover:bg-blue-800"
+                  >
+                    <Link href="/signup">Sign Up</Link>
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+
+
+        </div>
 
         <div className={`lg:w-[50%] mx-auto w-full`}>
           <div className="h-20 lg:h-20"></div>
@@ -149,7 +190,16 @@ const SignUp = () => {
 
         <div className="lg:h-[90px] h-[150px]"></div>
 
-        
+        <div className="w-[100%] h-[20px] lg:px-16 px-1 flex  lg:flex-row flex-col justify-center lg:justify-between items-center py-6 text-[#343A40] font-light lg:text-[16px] text-[14px] ">
+                 <div className="flex lg:flex-row flex-col lg:gap-6 gap-1 items-center ">
+                    <p>© 2023 Designers Query</p>
+                    <p>Terms and Conditions</p>
+                    <p>Privacy</p>
+                  </div>
+              <div>
+              <p>English</p>
+            </div>
+          </div>
         {/* <div className="w-[50%] h-full hidden lg:block">
           <div className="w-[100%] h-[100%]">
             <Image src="/log.png" width={800} height={1200} alt="login" />

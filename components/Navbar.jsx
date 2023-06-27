@@ -66,7 +66,7 @@ const Navbar = () => {
                 <div
                   href=""
                   onClick={() => setToggle(!toggle)}
-                  className="w-[130px] h-[40px] mx-auto font-light text-white lg:text-[#333333] mt-8 flex items-center justify-center rounded-xl border border-white hover:bg-blue-800"
+                  className="w-[130px] h-[40px] mx-auto font-light text-white lg:text-[#333333] mt-8 flex items-center justify-center rounded-xl border border-white hover:bg-blue-600"
                 >
                   <Link href="/login">Log In</Link>
                 </div>
@@ -74,7 +74,7 @@ const Navbar = () => {
                 <div
                   href=""
                   onClick={() => setToggle(!toggle)}
-                  className="w-[130px] h-[40px] mx-auto font-light mt-3 flex items-center justify-center rounded-xl bg-white hover:bg-blue-800 text-blue-500"
+                  className="w-[130px] h-[40px] mx-auto font-light mt-3 flex items-center justify-center rounded-xl bg-white hover:bg-blue-600 text-blue-500"
                 >
                   <Link href="/signup">Sign Up</Link>
                 </div>

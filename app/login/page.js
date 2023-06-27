@@ -17,7 +17,7 @@ const Login = () => {
 
   return (
     <div className={`${styles.innerWidth}`}>
-      <div className="h-[90vh] w-[100%]">
+      <div className="h-full w-[100%]">
         
         <div className={`lg:w-[50%] mx-auto w-full`}>
           <div className="">
