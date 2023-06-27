@@ -1,7 +1,6 @@
 "use client";
 
 
-import Image from "next/image";
 import styles from "@/styles";
 import Link from "next/link";
 import { FcGoogle } from "react-icons/fc";
@@ -14,9 +13,7 @@ import React, { useState } from "react";
 const Login = () => {
   const [toggle, setToggle] = useState(false);
 
-  const handleToggle = () => {
-    setToggle(!toggle);
-  };
+
 
   return (
     <div className={`${styles.innerWidth}`}>
