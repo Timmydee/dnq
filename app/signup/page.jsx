@@ -128,12 +128,12 @@ const SignUp = () => {
 
                   <div className="flex font-sans justify-center w-full my-1">
                     <p>
-                      Don't Have an account?{" "}
+                      Have an account?{" "}
                       <Link
                         href="/signup"
                         className="text-blue-500 font-sans shadow-sm hover:shadow-lg hover:bg-blue-700"
                       >
-                        Signup
+                        Login
                       </Link>{" "}
                     </p>
                   </div>

@@ -35,7 +35,7 @@ const Frame1 = () => {
                 career to a new level
               </h2>
               <p className="lg:w-[532px] text-zinc-800 text-[18px] pt-2 lg:text-[24px] font-normal w-[100%] lg:text-start text-center">
-                Designers Query, every Designer's friend.
+              
                 Get expert answers to your questions as a Professional Designer.
               </p>
       
