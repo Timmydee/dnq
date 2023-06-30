@@ -26,7 +26,7 @@ const about = [
   },
 ];
 
-const page = () => {
+export default function About () {
   return (
     <div className={`${styles.innerWidth} overflow-x-hidden`}>
       <div>
@@ -117,4 +117,3 @@ const page = () => {
   );
 };
 
-export default page;

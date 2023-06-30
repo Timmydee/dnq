@@ -147,13 +147,6 @@ const SignUp = () => {
         </div>
 
         <div className="lg:h-[90px] h-[150px]"></div>
-
-        
-        {/* <div className="w-[50%] h-full hidden lg:block">
-          <div className="w-[100%] h-[100%]">
-            <Image src="/log.png" width={800} height={1200} alt="login" />
-          </div>
-        </div> */}
       </div>
     </div>
   );
