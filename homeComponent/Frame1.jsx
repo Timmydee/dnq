@@ -28,13 +28,13 @@ const Frame1 = () => {
 
       <div className="relative lg:flex lg:flex-row flex-col lg:justify-between justify-center items-center w-full">
         <div className="fle w-">
-          <div className=" flex-col justify-center lg:justify-start lg:items-start items-center inline-flex pt-[0.1rem] lg:pt-[3rem] mt-[1rem] lg:[4rem] ">
+          <div className=" flex-col justify-center lg:justify-start lg:items-start items-center inline-flex ">
             <div className="lg:w-full w-[296px]">
               <h2 className="text-zinc-800 text-[30px] lg:text-[57px] font-extrabold lg:text-start text-center ">
-                Take your design
+                Take your design <br/>
                 career to a new level
               </h2>
-              <p className="lg:w-[532px] text-zinc-800 text-[18px] pt-2 lg:text-[24px] font-normal w-[100%] lg:text-start text-center">
+              <p className="lg:w-[532px] text-zinc-800 text-[18px] lg:text-[24px] font-normal w-[100%] lg:text-start text-center">
               
                 Get expert answers to your questions as a Professional Designer.
               </p>

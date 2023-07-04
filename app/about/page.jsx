@@ -32,10 +32,10 @@ export default function About () {
       <div>
         <div className="w-full relative">
           <div className="flex flex-col items-center justify-center h-[500px] mx-auto">
-            <h2 className="text-[#2E9EFF] text-[32px] lg:text-[57px]">
+            <h2 className="text-[#2E9EFF] text-[32px] lg:text-[57px] font-gentium">
               WHO WE ARE
             </h2>
-            <p className="text-[#333333] text-[14px] lg:text-[16px] lg:w-[712px] w-[90%] text-justify">
+            <p className="text-[#333333] text-[14px] lg:text-[16px] lg:w-[712px] w-[90%] text-center font-open">
               DNQ is a community-driven platform dedicated to answering all of
               the designers questions Our platform is designed to be a one-stop
               shop for all your design queries. Whether you are into web
@@ -43,13 +43,13 @@ export default function About () {
               everyone.
             </p>
           </div>
-          <div className="absolute bottom-10 right-0 lg:w-[83px] lg:h-[96px] w-[26px] h-[33px]">
+          <div className="absolute bottom-10 right-0 lg:w-[83px] lg:h-[96px] w-[26px] h-[33px] ">
             <Image src="/softstar.png" fill className="rotate-animation"/>
           </div>
-          <div className="absolute bottom-10 left-20 lg:w-[83px] lg:h-[96px] w-[26px] h-[33px]">
+          <div className="absolute bottom-10 left-20 lg:w-[83px] lg:h-[96px] w-[26px] h-[33px] hidden lg:block">
             <Image src="/kite.png" fill />
           </div>
-          <div className="absolute top-10 left-20 lg:w-[83px] lg:h-[96px] w-[26px] h-[33px]">
+          <div className="absolute top-10 left-20 lg:w-[83px] lg:h-[96px] w-[26px] h-[33px] hidden lg:block">
             <Image
               src="/softstar.png"
               fill
@@ -57,12 +57,12 @@ export default function About () {
             />
           </div>
         </div>
-        <div class="w-full bg-slate-950 py-[40px] justify-center items-center inline-flex">
+        <div class="w-full bg-[#060028] py-[40px] justify-center items-center inline-flex">
           <div class="self-stretch flex-col justify-start items-center gap-2.5 inline-flex">
-            <div class="text-center text-white text-[32px] lg:text-[57px] font-bold">
+            <div class="text-center text-white text-[32px] lg:text-[57px] font-bold font-gentium">
               WHAT WE DO?
             </div>
-            <div class="lg:w-[85%] w-[90%] text-justify text-white text-[16px] font-semibold">
+            <div class="lg:w-[75%] w-[90%] text-center text-white text-[16px]  font-normal font-open">
               Here, we cater to the needs of designers of all levels, guiding
               them to a wealth of resources and support to help them excel in
               their careers. One of the most unique features of our platform is
@@ -103,12 +103,12 @@ export default function About () {
               );
             })}
           </div>
-          <div className="absolute bottom-10 right-0">
+          {/* <div className="absolute bottom-10 right-0">
             <Image src="/isolation1.png" width={98} height={94} />
           </div>
-          <div className="absolute top-10 left-0">
+          <div className="absolute top-10 left-0 ">
             <Image src="/isolation2.png" width={98} height={94} />
-          </div>
+          </div> */}
         </div>
       </div>
 
