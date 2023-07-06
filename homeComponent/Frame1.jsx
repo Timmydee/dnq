@@ -56,6 +56,8 @@ const Frame1 = () => {
             <Image src="/dnqHero.png" fill />
           </div>
           {/* <div className="w-[100%] h-[20px] bg-white opacity-10 block lg:hidden md:hidden"/> lg:w-[542px] lg:h-[700px]*/}
+
+          {/* div */}
         </div>
         
       </div>
