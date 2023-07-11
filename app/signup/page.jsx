@@ -50,7 +50,7 @@ const SignUp = () => {
                       </div>
                       <input
                         placeholder="Enter your email"
-                        className="w-full h-16 ml-2 bg-transparent font-sans focus:outline-none"
+                        className="w-full h-16 ml-2 border-transparent focus:border-transparent focus:ring-0 outline-0 bg-transparent font-sans focus:outline-none"
                         type="email"
                         id="email"
                       />
@@ -69,7 +69,7 @@ const SignUp = () => {
                       </div>
                       <input
                         placeholder="Enter your Password"
-                        className="w-full h-16 ml-2 bg-transparent font-sans focus:outline-none"
+                        className="w-full h-16 border-transparent focus:border-transparent focus:ring-0 outline-0 ml-2 bg-transparent font-sans focus:outline-none"
                         type="password"
                         id="password"
                       />
@@ -91,7 +91,7 @@ const SignUp = () => {
                       </div>
                       <input
                         placeholder="Confirm your Password"
-                        className="w-full h-16 ml-2 bg-transparent focus:outline-none font-sans"
+                        className="w-full h-16 ml-2 border-transparent focus:border-transparent focus:ring-0 outline-0 bg-transparent focus:outline-none font-sans"
                         type="password"
                         id="password"
                       />
@@ -131,7 +131,7 @@ const SignUp = () => {
                       Have an account?{" "}
                       <Link
                         href="/signup"
-                        className="text-blue-500 font-sans shadow-sm hover:shadow-lg hover:bg-blue-700"
+                        className="text-blue-500 font-sans shadow-sm hover:shadow-lg hover:text-blue-700"
                       >
                         Login
                       </Link>{" "}
