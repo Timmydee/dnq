@@ -1,8 +1,12 @@
 import React from 'react'
+import styles from '@/styles'
+import Search from '@/components/search'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className={`${styles.innerWidth}`}>
+      <Search />
+    </div>
   )
 }
 

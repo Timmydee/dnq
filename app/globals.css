@@ -17,7 +17,22 @@
 .rotate-animation {
     animation: rotate 2s linear infinite;
 }
-
+.padding {
+  padding-left: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+}
+.paddingX {
+  padding-left: 3rem;
+  height: 60px;
+}
+.hoverBg:hover{
+  background-color: #58B1FF;
+  border-radius: 20px;
+}
+.border{
+  border-radius: 0 50px 50px 0;
+}
 
   
 

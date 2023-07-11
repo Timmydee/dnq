@@ -48,8 +48,8 @@ export default function About () {
             </p>
           </div>
           <div className="relative hidden lg:block">
-            <Image src='/aboutimg2.png' width={150} height={160} className="relative right-24" />
-            <Image src='/abtline2.png' fill className="absolute top-0 right-0 left-0 bottom-0 hidden lg:block" />
+            <Image src='/aboutimg2.png' width={150} height={160} className="relative right-24 z-10" />
+            <Image src='/abtline2.png' fill className="absolute top-0 right-0 left-0 bottom-0 hidden lg:block z-0" />
           </div>
           
           <div className="absolute bottom-0 left-[76%] lg:w-[83px] lg:h-[96px] w-[26px] h-[33px] ">
