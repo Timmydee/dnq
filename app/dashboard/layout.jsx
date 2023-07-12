@@ -13,10 +13,13 @@ export default function dashboardLayout({ children }) {
       <main>
         <div className='w-full flex h-[100vh]'>
             <div className='w-[20%]'>
+                <div className='fixed w-[20%]'>
                 <DashboardNavbar />
+                </div>
+                
             </div>
 
-            <div className='w-[80%'>
+            <div className='w-[80%]'>
                 {children}
             </div>
         </div>
