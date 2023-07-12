@@ -46,7 +46,7 @@ const Login = () => {
                       </div>
                       <input
                         placeholder="Enter your email"
-                        className="w-full font-sans h-16 ml-2 bg-transparent focus:outline-none"
+                        className="w-full font-sans h-16 ml-2 border-transparent focus:border-transparent focus:ring-0 outline-0 bg-transparent focus:outline-none"
                         type="email"
                         id="email"
                       />
@@ -63,7 +63,7 @@ const Login = () => {
                       </div>
                       <input
                         placeholder="Enter your Password"
-                        className="w-full h-16 font-sans ml-2 bg-transparent focus:outline-none"
+                        className="w-full h-16 font-sans ml-2 bg-transparent border-transparent focus:border-transparent focus:ring-0 outline-0 focus:outline-none"
                         type="password"
                         id="password"
                       />
@@ -78,7 +78,7 @@ const Login = () => {
                   <div className=" my-2">
                     <Link
                       href="/passwordForget"
-                      className="text-blue-500 text-sm font-serif shadow-sm hover:shadow-lg hover:bg-blue-700"
+                      className="text-blue-500 text-sm font-serif shadow-sm hover:shadow-lg hover:text-blue-700"
                     >
                       Forgot Password
                     </Link>
@@ -113,7 +113,7 @@ const Login = () => {
                       Don't Have an account?{" "}
                       <Link
                         href="/signup"
-                        className="text-blue-500 shadow-sm font-sans hover:shadow-lg hover:bg-blue-700"
+                        className="text-blue-500 shadow-sm font-sans hover:shadow-lg hover:text-blue-700"
                       >
                         Sign Up
                       </Link>{" "}

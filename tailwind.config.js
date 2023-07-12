@@ -10,6 +10,7 @@ module.exports = {
     './dashboardComponent/**/*.{js,ts,jsx,tsx,mdx}',
     './styles/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './node_modules/flowbite-react/**/*.js', './pages/**/*.{ts,tsx}', './public/**/*.html',
   ],
   theme: {
     fontFamily:{
@@ -30,8 +31,6 @@ module.exports = {
       }
     },
   },
-  plugins: [
-    require("flowbite/plugin")
-  ],
-  // plugins: [],
+  plugins: [require('flowbite/plugin')],
+
 }
