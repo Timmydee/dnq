@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react";
-import { Progress } from 'flowbite-react';
+{/*import { Progress } from 'flowbite-react';*/}
 import Image from "next/image";
 import { useState } from 'react';
 
@@ -15,7 +15,7 @@ const select = () => {
                 <div className="lg:w-[100%] w-[80%] m-auto">
                     <h1 className="mt-[50px] text-[30px] font-serif text-center font-[500]">Choose to select</h1>
                     <p className="text-[14px] text-center mt-[7px] mb-[4px]">Please select the categories that you would love to get content from.</p>
-                    <Progress progress={100} className="w-[300px] m-auto "/>
+                    {/*<Progress progress={100} className="w-[300px] m-auto "/>*/}
                 </div>
 
                 <div className="lg:h-[130vh] h-[180vh]">

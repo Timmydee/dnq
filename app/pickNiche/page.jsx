@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState } from 'react';
-import { Progress } from 'flowbite-react';
+{/*import { Progress } from 'flowbite-react';*/}
 
 const pickNiche = () => {
     const [selectedOption, setSelectedOption] = useState();
@@ -24,7 +24,7 @@ const pickNiche = () => {
             <div className="lg:w-[40%] w-[70%] h-[90vh] m-auto">
                 <h1 className="mt-[70px] text-[30px] font-serif text-center font-[500]">Almost there!</h1>
                 <p className="text-[14px] text-center mt-[7px] mb-[4px]">Enter your username and pick a niche</p>
-                <Progress progress={45} className="w-[300px] m-auto "/>
+                {/*<Progress progress={45} className="w-[300px] m-auto "/>*/}
 
 
                 

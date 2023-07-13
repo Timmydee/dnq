@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react";
-import { Progress } from 'flowbite-react';
+{/*import { Progress } from 'flowbite-react';*/}
 import Image from "next/image";
 
 const Upload = () => {
@@ -10,7 +10,7 @@ const Upload = () => {
             <div className="h-[500px] w-full">
                 <h1 className="mt-[50px] text-[30px] font-serif text-center font-[500]">Upload a Picture</h1>
                 <p className="text-[14px] text-center mt-[7px] mb-[4px]">Upload your Picture</p>
-                <Progress progress={65} className="w-[300px] m-auto "/>
+                {/*<Progress progress={65} className="w-[300px] m-auto "/>*/}
 
                 <div className="h-[200px] mt-4">
                     <Image src="/Uploaddp.png" width={200} height={100} className="m-auto"/>
