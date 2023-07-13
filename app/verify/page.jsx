@@ -2,29 +2,9 @@ import { document } from "postcss";
 
 import React from "react";
 
+
 const verify = () => {
-    /*const inputs = document.querySelectorAll("input"),
-        button = document.querySelector("button");
     
-    inputs.forEach((input, index1) => {
-        input.addEventListener("keyup", () => {
-            const currentInput = input,
-            nextInput = input.nextElementSibling,
-            prevInput = input.previousElementSibling;
-
-            if(currentInput.value.length > 1){
-                currentInput.value = "";
-                return;
-            }
-
-            if(nextInput && nextInput.hasAttribute("disabled") && currentInput.value !== ""){
-                nextInput.removeAttribute("disabled")
-            }
-        })
-    })
-
-    window.addEventListener("load", () => inputs[0].focus());
-    */
     
     return ( 
         <div className="w-[100%] h-full">
@@ -41,6 +21,7 @@ const verify = () => {
                             <input type="number" className="h-[75px] w-[75px] text-[20px] border text-center [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none border-gray-400 outline-none rounded-2xl mr-2 " disabled />
                             <input type="number" className="h-[75px] w-[75px] text-[20px] border text-center [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none border-gray-400 outline-none rounded-2xl " disabled />
                         </div>
+                        
                         <p className="text-sky-600 text-[11px]">00:30</p>
                         <button className=" w-[380px] h-[50px] py-5 rounded-2xl cursor-pointer transition-all duration-500 ease-in text-white text-[12px] bg-sky-300 active:bg-blue-700 hover:bg-blue-400">Submit</button>
                     </form>
