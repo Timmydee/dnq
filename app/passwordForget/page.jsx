@@ -49,7 +49,7 @@ const passwordForget = () => {
                                         </div>
                                         <input
                                             placeholder="Enter your email"
-                                            className="w-full font-sans h-16 ml-2 bg-transparent focus:outline-none"
+                                            className="w-full font-sans h-16 ml-2 bg-transparent focus:border-transparent focus:ring-0 outline-0 focus:outline-none"
                                             type="email"
                                             id="email"
                                         />
