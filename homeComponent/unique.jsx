@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Unique = () => {
   return (
-    <div className={`${styles.innerWidth} px-[4rem]`}>
+    <div className={`${styles.innerWidth} lg:px-[8rem] px-[1rem]`}>
       <div className="">
         <p
           className={`${styles.pStyle2} text-[#333333] text-center py-6 hidden lg:block md:hidden`}

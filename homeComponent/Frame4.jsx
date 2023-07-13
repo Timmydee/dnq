@@ -11,8 +11,8 @@ const Frame4 = () => {
           <div className="lg:w-[560px] w-full flex flex-col justify-center items-center lg:block text-center lg:text-start">
             <h3 className={`${styles.h5Style}`}>Ask Questions</h3>
             <p className={`${styles.pStyle} my-4`}>
-            Tap into the collective knowledge of our community by posting 
-your design-related questions and receiving expert answers in no time
+              Tap into the collective knowledge of our community by posting your
+              design-related questions and receiving expert answers in no time
             </p>
 
             <div
@@ -59,8 +59,8 @@ your design-related questions and receiving expert answers in no time
           <div className="lg:w-[560px] w-full flex flex-col justify-center items-center lg:block text-center lg:text-start">
             <h3 className={`${styles.h5Style}`}>Robust Search Feature</h3>
             <p className={`${styles.pStyle} my-4 `}>
-            Confused on what to ask? with our robust search feature we give you suggestions to questions
-relevant to your field.
+              Confused on what to ask? with our robust search feature we give
+              you suggestions to questions relevant to your field.
             </p>
 
             <div

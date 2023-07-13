@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className={`${styles.innerWidth} relative z-20`}>
       <div
-        className={` ${styles.xPaddings} py-2 lg:py-3 flex justify-between items-center shadow-lg `}
+        className={` ${styles.xPaddings} py-1 lg:py-2 flex justify-between items-center shadow-lg `}
       >
         <div className="w-20 h-[76.91px] relative">
         <Link href="/">
