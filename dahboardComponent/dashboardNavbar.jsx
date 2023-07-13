@@ -6,7 +6,7 @@ import Link from "next/link";
 const DashboardNavbar = () => {
   return (
     <div className={`${styles.innerWidth}`}>
-      <div className="bg-[#060028] h-[100vh] relative border">
+      <div className="bg-[#060028] h-[100vh] relative borderDash">
         <div className="w-full">
         <div className="w-[10%] padding px-10">
           <Image

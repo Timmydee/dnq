@@ -30,10 +30,10 @@ export default function About () {
   return (
     <div className={`${styles.innerWidth} overflow-x-hidden`}>
       <div>
-        <div className="w-full relative flex justify-around my-12">
-          <div className="relative hidden lg:block">
-            <Image src='/aboutimg1.png' width={220} height={260} />
-            <Image src='/abtline1.png' fill className="absolute top-0 right-0 left-0 bottom-0 hidden lg:block" />
+        <div className="w-full relative flex justify-between items-center my-1">
+          <div className="relative hidden lg:block w-full">
+            <Image src='/abt1.png' fill />
+            {/* <Image src='/abtline1.png' fill className="absolute top-0 right-0 left-0 bottom-0 hidden lg:block" /> */}
           </div>
           <div className="flex flex-col items-center justify-center h-[500px] mx-auto">
             <h2 className="text-[#2E9EFF] text-[32px] lg:text-[57px] font-gentium">
@@ -47,9 +47,9 @@ export default function About () {
               everyone.
             </p>
           </div>
-          <div className="relative hidden lg:block">
-            <Image src='/aboutimg2.png' width={150} height={160} className="relative right-24 z-10" />
-            <Image src='/abtline2.png' fill className="absolute top-0 right-0 left-0 bottom-0 hidden lg:block z-0" />
+          <div className="relative hidden lg:block w-full">
+            <Image src='/abt2.png' fill />
+            {/* <Image src='/abtline1.png' fill className="absolute top-0 right-0 left-0 bottom-0 hidden lg:block" /> */}
           </div>
           
           <div className="absolute bottom-0 left-[76%] lg:w-[83px] lg:h-[96px] w-[26px] h-[33px] ">
