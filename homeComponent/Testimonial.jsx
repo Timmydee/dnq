@@ -5,7 +5,8 @@ import {FcPrevious, FcNext} from "react-icons/fc"
 const testimonies = [
   {
     imgUrl: "/swipe1.png",
-    title: "Emily - UI/UX Designer.",
+    
+    title: "Learning a skill in Web3.",
     desc:
       "Designers Query has been an invaluable resource for me. The community is incredibly supportive, and I've received insightful answers to my questions that have helped me grow as a designer. The platform is user-friendly and intuitive, making it easy to navigate and find the information I need. I highly recommend Designers Query to any designer looking to expand their skills and connect with like-minded professionals.",
   },
@@ -17,7 +18,7 @@ const testimonies = [
   },
   {
     imgUrl: "/swipe3.png",
-    title: "Learning a skill in Web3.",
+    title: "Emily - UI/UX Designer.",
     desc:
       "Being a part of Designers Query has connected me with talented designers from around the world. I've had the opportunity to collaborate on projects, exchange ideas, and receive valuable feedback on my work. Designers Query is a must-have for any designer looking to enhance their skills and build meaningful relationships within the design community.",
   },
@@ -35,7 +36,7 @@ const Testimonial = () => {
                 <img src={testimony.imgUrl} fill alt={testimony.title} />
               </div>
 
-              <div className={`flex flex-col items-center justify-center bg-white rounded-2xl shadow-md shadow-blue-200 lg:w-[390px] px-3 lg:h-[185px] w-[90%] h-fit relative z-0 lg:pt-5`}>
+              <div className={`flex flex-col items-center justify-center bg-white rounded-2xl shadow-md shadow-blue-200 lg:w-[390px] px-6 pb-4 lg:h-[185px] w-[90%] h-fit relative z-0 lg:pt-5`}>
                 <h4 className="text-blue-500 text-[16px] font-semibold mt-1 mb-2 font-pius">{testimony.title}</h4>
                 <div className="w-[100%] h-[159px] text-zinc-800 text-[12px] font-light font-open">
                   <span>{testimony.desc} </span>
