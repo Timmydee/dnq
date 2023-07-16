@@ -63,9 +63,11 @@ const Home = () => {
               <h2 className={`lg:text-[22px] text-[11px] mb-2 mt-4`}>
                 How do you create a consistent visual design in UI/UX?
               </h2>
-              <div className="relative w-[100%] lg:h-[259px] h-[126px]">
-                <Image src="/leePost.png" fill className="" />
-              </div>
+              
+              {/* <div className="w-[100%] lg:h-[259px] h-[126px]">
+                <Image src="/leePost.png"  className="" />
+              </div> */}
+              <img src="/leePost.png" className="w-[100%] lg:h-[259px] h-[126px]"/>
               <h4 className={`lg:text-[16px] text-[10px] mt-2`}>
                 Creating a consistent visual design in UI/UX involves
                 establishing a visual style guide that defines guidelines for

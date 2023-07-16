@@ -25,9 +25,14 @@ export default function dashboardLayout({ children }) {
         </div>
 
         <div className='lg:hidden block'>
-          <MobileDashboardNav />
-
-          {children}
+          <div className=''>
+            <MobileDashboardNav />
+          </div>
+          
+          <div className='relativ'>
+            {children}
+          </div>
+          
         </div>
       </main>
     </html>
