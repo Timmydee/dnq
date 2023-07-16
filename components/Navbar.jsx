@@ -33,7 +33,7 @@ const Navbar = () => {
           <div>
             <Link
               href="/about"
-              className="font-700 text-[20px] text-zinc-800 hover:text-blue-500 "
+              className="font-700 text-[20px] font-bold text-zinc-800 hover:text-blue-500 "
             >
               About Us
             </Link>

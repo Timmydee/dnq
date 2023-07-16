@@ -11,7 +11,7 @@ import Navbar from "@/components/Navbar";
 export default function Home() {
   return (
     <div>
-      <div className="font-gentium overflow-x-hidden">
+      <div className="overflow-x-hidden">
         <Navbar />
         <Frame1 />
         <Frame3 />

@@ -12,7 +12,7 @@ export default function dashboardLayout({ children }) {
   return (
     <html lang="en">
       <main>
-        <div className='w-full lg:flex h-[100vh] hidden'>
+        <div className='w-full lg:flex h-[100vh] hidden font-open'>
             <div className='w-[20%]'>
                 <div className='fixed w-[20%]'>
                 <DashboardNavbar />

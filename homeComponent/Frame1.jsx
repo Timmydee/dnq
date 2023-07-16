@@ -30,18 +30,18 @@ const Frame1 = () => {
         <div className="fle w-">
           <div className=" flex-col justify-center lg:justify-start lg:items-start items-center inline-flex ">
             <div className="lg:w-full w-[296px]">
-              <h2 className="text-zinc-800 text-[30px] lg:text-[57px] font-extrabold lg:text-start text-center ">
+              <h2 className="text-zinc-800 text-[30px] lg:text-[57px] font-extrabold font-pius lg:text-start text-center leading-[63px]">
                 Take your design <br/>
                 career to a new level
               </h2>
-              <p className="lg:w-[532px] text-zinc-800 text-[18px] lg:text-[24px] font-normal w-[100%] lg:text-start text-center">
+              <p className="lg:w-[532px] text-[#333333] text-[18px] lg:text-[24px] font-open font-normal w-[100%] lg:text-start text-center my-3">
               
                 Get expert answers to your questions as a Professional Designer.
               </p>
       
             </div>
             <div className="lg:px-[54px] px-[34px] pt-4 pb-[17px] mt-2 cursor-pointer bg-blue-500 hover:bg-blue-600 rounded-lg justify-center items-center inline-flex">
-              <Link href='/' className="text-white text-[16px] lg:text-[18px] font-bold">
+              <Link href='/' className="text-white text-[16px] lg:text-[18px] font-bold font-open">
                 Get Started
               </Link>
             </div>

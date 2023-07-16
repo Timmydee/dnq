@@ -19,7 +19,7 @@ const testimonies = [
     imgUrl: "/swipe3.png",
     title: "Learning a skill in Web3.",
     desc:
-      "Being a part of Designers Query has connected me with talented designers from around the world. I've had the opportunity to collaborate on projects, exchange ideas, and receive valuable feedback on my work. The platform provides a wealth of learning resources, tutorials, and expert articles that have helped me stay updated with the latest design trends. Designers Query is a must-have for any designer looking to enhance their skills and build meaningful relationships within the design community.",
+      "Being a part of Designers Query has connected me with talented designers from around the world. I've had the opportunity to collaborate on projects, exchange ideas, and receive valuable feedback on my work. Designers Query is a must-have for any designer looking to enhance their skills and build meaningful relationships within the design community.",
   },
 
 ];
@@ -35,9 +35,9 @@ const Testimonial = () => {
                 <img src={testimony.imgUrl} fill alt={testimony.title} />
               </div>
 
-              <div className={`flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg shadow-blue-200 lg:w-[390px] px-3 lg:h-[185px] w-[90%] h-fit relative z-0 lg:pt-5`}>
-                <h4 className="text-blue-500 text-[16px] font-semibold mt-1 mb-2">{testimony.title}</h4>
-                <div className="w-[100%] h-[159px] text-zinc-800 text-[12px] font-light">
+              <div className={`flex flex-col items-center justify-center bg-white rounded-2xl shadow-md shadow-blue-200 lg:w-[390px] px-3 lg:h-[185px] w-[90%] h-fit relative z-0 lg:pt-5`}>
+                <h4 className="text-blue-500 text-[16px] font-semibold mt-1 mb-2 font-pius">{testimony.title}</h4>
+                <div className="w-[100%] h-[159px] text-zinc-800 text-[12px] font-light font-open">
                   <span>{testimony.desc} </span>
                 </div>
               </div>

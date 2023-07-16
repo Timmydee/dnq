@@ -34,13 +34,13 @@ const Frame3 = () => {
   return (
     <div className='w-full bg-[#2E9EFF]'>
       <div className='py-4 lg:py-6 px-5 lg:px-0'>
-        <h3 className={`${styles.h5Style} text-center text-white font-bold`}>Helping all Designers get answers to there questions</h3>
+        <h3 className={`${styles.h5Style} text-center text-white font-bold font-pius`}>Helping all Designers get answers to there questions</h3>
         <div className='flex flex-wrap justify-evenly'>
           {help.map((item) => {
             return (
               <div className='flex flex-col items-center justify-center my-4 gap-2'>
                 <Image src={item.image} width={60} height={60} alt='help1' />
-                <p className={`${styles.pStyle2} text-white`}>{item.text}</p>
+                <p className={`${styles.pStyle2} font-open text-white`}>{item.text}</p>
               </div>
             )
           })}
