@@ -7,7 +7,8 @@ import { useState } from 'react';
 
 
 const select = () => {
-    const Input = useState();
+    
+
 
     return ( 
         <div>
@@ -19,159 +20,159 @@ const select = () => {
                 </div>
 
                 <div className="lg:h-[130vh] h-[180vh]">
-                    <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 w-[60%] h-[150vh] lg:w-[40%] lg:h-[100vh] m-auto mt-5" >
-                        <div className="relative " >
-                            <div className="overlay w-[132px] h-[120px] lg:w-[150px] lg:h-[138px] absolute z-20 bg-black rounded-3xl opacity-30"></div>
-                            <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
+                    <div className="grid grid-cols-2 lg:grid-cols-3 gap-2 w-[60%] h-[800px] lg:w-[40%] lg:h-[100vh] m-auto mt-5" >
+                        <div className="relative" >
+                            <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
+                            <input type="radio" name="abc"  className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/Gd.png"
                             width={150} 
                             height={150}
-                            className="absolute z-10"
+                            className="absolute z-10 w-[100%] h-full"
                             />
                             <h3 className="absolute top-24 z-40 text-white text-[12px] left-3">Graphic Design</h3>
                         </div>
 
                         <div className="relative " >
-                        <div className="overlay w-[132px] h-[120px] lg:w-[150px] lg:h-[138px] absolute z-20 bg-black rounded-3xl opacity-30"></div>
-                            <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
+                        <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
+                            <input type="radio" id="myRadio" name="abc" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/md.png"
                             width={150} 
                             height={150}
-                            className="absolute z-10"
+                            className="absolute z-10 w-[100%] h-full "
                             />
-                            <h3 className="absolute top-24 z-40 text-white text-[12px] left-3">Motion Design</h3>
+                            <h3 className="absolute top-24 z-40  text-white text-[12px] left-3">Motion Design</h3>
                         </div>
 
                         <div className="relative " >
-                        <div className="overlay w-[132px] h-[120px] lg:w-[150px] lg:h-[138px] absolute z-20 bg-black rounded-3xl opacity-30"></div>
+                        <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
                             <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/ud.png"
                             width={150} 
                             height={150}
-                            className="absolute z-10"
+                            className="absolute z-10 w-[100%] h-full"
                             />
                             <h3 className="absolute top-24 z-40 text-white text-[12px] left-3">Ui/Ux Design</h3>
                         </div>
 
                         <div className="relative " >
-                        <div className="overlay w-[132px] h-[120px] lg:w-[150px] lg:h-[138px] absolute z-20 bg-black rounded-3xl opacity-30"></div>
+                        <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
                             <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/da.png"
                             width={150} 
                             height={150}
-                            className="absolute z-10"
+                            className="absolute z-10 w-[100%] h-full"
                             />
                             <h3 className="absolute top-24 z-40 text-white text-[12px] left-3">Digital Artist</h3>
                         </div>
 
                         <div className="relative " >
-                        <div className="overlay w-[132px] h-[120px] lg:w-[150px] lg:h-[138px] absolute z-20 bg-black rounded-3xl opacity-30"></div>
+                        <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
                             <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/ld.png"
                             width={150} 
                             height={150}
-                            className="absolute z-10"
+                            className="absolute z-10 w-[100%] h-full"
                             />
-                            <h3 className="absolute top-24 z-40 text-white text-[12px] left-3">Logo Design</h3>
+                            <h3 className="absolute top-24  z-40 text-white text-[12px] left-3">Logo Design</h3>
                         </div>
 
                         <div className="relative " >
-                        <div className="overlay w-[132px] h-[120px] lg:w-[150px] lg:h-[138px] absolute z-20 bg-black rounded-3xl opacity-30"></div>
+                        <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
                             <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/bd.png"
                             width={150} 
                             height={150}
-                            className="absolute z-10"
+                            className="absolute z-10 w-[100%] h-full"
                             />
                             <h3 className="absolute top-24 z-40 text-white text-[12px] left-3">Brand Design</h3>
                         </div>
 
                         <div className="relative " >
-                        <div className="overlay w-[132px] h-[120px] lg:w-[150px] lg:h-[138px] absolute z-20 bg-black rounded-3xl opacity-30"></div>
+                        <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
                             <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/packd.png"
                             width={150} 
                             height={150}
-                            className="absolute z-10"
+                            className="absolute z-10 w-[100%] h-full"
                             />
                             <h3 className="absolute top-24 z-40 text-white text-[12px] left-3">Packaging Design</h3>
                         </div>
 
                         <div className="relative " >
-                        <div className="overlay w-[132px] h-[120px] lg:w-[150px] lg:h-[138px] absolute z-20 bg-black rounded-3xl opacity-30"></div>
+                        <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
                             <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/gamd.png"
                             width={150} 
                             height={150}
-                            className="absolute z-10"
+                            className="absolute z-10 w-[100%] h-full"
                             />
                             <h3 className="absolute top-24 z-40 text-white text-[12px] left-3">Game Design</h3>
                         </div>
 
                         <div className="relative " >
-                        <div className="overlay w-[132px] h-[120px] lg:w-[150px] lg:h-[138px] absolute z-20 bg-black rounded-3xl opacity-30"></div>
+                        <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
                             <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/webd.png"
                             width={150} 
                             height={150}
-                            className="absolute z-10"
+                            className="absolute z-10 w-[100%] h-full"
                             />
                             <h3 className="absolute top-24 z-40 text-white text-[12px] left-3">Web Design</h3>
                         </div>
 
                         <div className="relative " >
-                        <div className="overlay w-[132px] h-[120px] lg:w-[150px] lg:h-[138px] absolute z-20 bg-black rounded-3xl opacity-30"></div>
+                        <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
                             <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/Id.png"
                             width={150} 
                             height={150}
-                            className="absolute z-10"
+                            className="absolute z-10 w-[100%] h-full"
                             />
                             <h3 className="absolute top-24 z-40 text-white text-[12px] left-3">Industrial Design</h3>
                         </div>
 
                         <div className="relative " >
-                        <div className="overlay w-[132px] h-[120px] lg:w-[150px] lg:h-[138px] absolute z-20 bg-black rounded-3xl opacity-30"></div>
+                        <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
                             <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/intd.png"
                             width={150} 
                             height={150}
-                            className="absolute z-10"
+                            className="absolute z-10 w-[100%] h-full"
                             />
                             <h3 className="absolute top-24 z-40 text-white text-[12px] left-3">Interaction Design</h3>
                         </div>
 
                         <div className="relative " >
-                        <div className="overlay w-[132px] h-[120px] lg:w-[150px] lg:h-[138px] absolute z-20 bg-black rounded-3xl opacity-30"></div>
+                        <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
                             <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/intiod.png"
                             width={150} 
                             height={150}
-                            className="absolute z-10"
+                            className="absolute z-10 w-[100%] h-full"
                             />
                             <h3 className="absolute top-24 z-40 text-white text-[12px] left-3">Interior Design</h3>
                         </div>

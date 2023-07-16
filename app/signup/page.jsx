@@ -111,7 +111,7 @@ const SignUp = () => {
                   </div>
 
                   <button
-                    className={`${styles.flexCenter} ${styles.btnStyle} cursor-pointer hover:text-white my-3 w-full h-16 shadow-md hover:shadow-lg rounded-2xl hover:bg-blue-700`}
+                    className={`${styles.flexCenter} ${styles.btnStyle} cursor-pointer hover:text-white my-3 w-full h-16  hover:shadow-lg rounded-2xl hover:bg-blue-700`}
                   >
                     <div className="flex items-center">
                       <FcGoogle className="mr-2" size={40}/>
