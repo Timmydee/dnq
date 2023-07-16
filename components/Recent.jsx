@@ -27,12 +27,12 @@ const recents = [
 
 const Recent = () => {
   return (
-    <div className={`${styles.innerWidth} border px-4 py-5 rounded-2xl`}>
-      <h2 className={`${styles.h5Style} mb-2 mt-4`}>Recent Topics</h2>
+    <div className={`${styles.innerWidth} border px-4 py-4 rounded-2xl`}>
+      <h2 className={`${styles.h5Style} mt-4 mb-2 font-semibold `}>Recent Topics</h2>
       <div>
         {recents.map((recent) => {
           return (
-            <div key={recent.name} className="mb-6">
+            <div key={recent.name} className="mb-2">
               <div className="flex justify-between items-center mb-2 ">
                 <div>
                   <h4 className={`${styles.pStyle} `}>{recent.name}</h4>
