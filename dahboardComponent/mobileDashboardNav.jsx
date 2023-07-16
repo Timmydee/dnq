@@ -37,7 +37,7 @@ const MobileDashboardNav = () => {
               <div onClick={handleToggle} className="relative flex justify-end">
                 {toggle && <AiOutlineClose color="white" size={24} />}
               </div>
-              <div className="fle items-center justify-center">
+              <div className="fle items-center justify-center mt-8">
                 <div className="flex-col justify-start items-start text-white text-[24px] w-full text-lg ">
                   <div onClick={handleToggle} className="mt-6 w-full paddingX flex items-center gap-6 cursor-pointer hoverBg">
                     <Image

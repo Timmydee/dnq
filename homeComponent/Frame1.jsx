@@ -6,7 +6,7 @@ import Link from "next/link";
 const Frame1 = () => {
   return (
     <div
-      className={`${styles.innerWidth} h-full relative px-[4rem] mt-[0rem] mb-[0rem]`}
+      className={`${styles.innerWidth} h-full relative px-[4rem] pt-[1rem] mb-[0rem]`}
     >
       <div className="">
         <div className="w-[922px] h-[556px] top-[0%] bottom-[0%] right-0 absolute hidden lg:block md:hidden">
