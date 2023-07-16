@@ -28,16 +28,12 @@ const MobileDashboardNav = () => {
           </Link>
         </div>
         <div onClick={handleToggle} className="relative flex justify-end">
-          {!toggle ? (
-            <BiMenuAltRight color="black" size={30} />
-          ) : (
-            <AiOutlineClose color="black" size={30} />
-          )}
+          {!toggle && <BiMenuAltRight color="black" size={30} />}
         </div>
 
         {toggle && (
-          <div className="bg-blue-500 absolute w-[100%] top-0 right-0 bottom-0 left-0 h-[100vh] rounded-lg">
-            <div className="flex-col justify-center items-center p-4 text-white text-[16px] w-full text-lg ">
+          <div className="bg-blue-500 absolute w-[100%] top-0 right-0 bottom-0 left-0 h-[100vh] rounded-lg  ">
+            <div className="flex-col justify-center items-center p-4 text-white text-[16px] w-full text-lg shadow-lg border ">
               <div onClick={handleToggle} className="relative flex justify-end">
                 {!toggle && <AiOutlineClose color="white" size={24} />}
               </div>

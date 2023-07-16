@@ -27,7 +27,7 @@ const Unique = () => {
             </p>
           </div>
 
-          <div className="relativ">
+          <div className="relativ flex items-center justify-center">
             <div className="lg:w-[500px] lg:h-[400px] w-[280px] h-[220px] relative">
               <Image src="/unique.png" fill />
             </div>

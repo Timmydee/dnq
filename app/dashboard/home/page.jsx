@@ -10,26 +10,30 @@ import Active from "@/components/Active";
 
 const Home = () => {
   return (
-    <div className={`${styles.innerWidth} px-[2rem]`}>
-      <Search />
+    <div className={`${styles.innerWidth}`}>
+      <div className=" lg:px-[2rem] px-3">
+        <div className="hidden lg:block">
+          <Search />
+        </div>
+      
 
-      <div className="w-full mt-4 flex justify-between">
-        <div className="w-[60%]">
+      <div className="w-full mt-4 flex lg:flex-col justify-between">
+        <div className="lg:w-[60%] w-full">
           {/* input area */}
           <div className=" border rounded-xl">
             <div
-              className={`${styles.flexStart} items-center gap-4 px-[2rem] my-2`}
+              className={`${styles.flexStart} items-center gap-4 lg:px-[2rem] px-2 my-2`}
             >
               <Image src="/actImage.png" width={60} height={60} />
 
               <input
                 placeholder="Ask your question, Emem...."
-                className="px-3 py-2 w-full font-light text-sm"
+                className="lg:px-3 px-1 py-2 h-[100px] w-full font-light text-sm outline-none"
               />
             </div>
 
             <div className=" w-full bg-[#F4F4F4] flex items-center gap-3">
-              <div className="px-[2rem] flex items-center py-2 gap-2">
+              <div className="lg:px-[2rem] px-2 flex items-center py-2 gap-2">
                 <HiOutlineCamera className="w-[24px] h-[24px] text-blue-400 cursor-pointer" />
                 <div className="cursor-pointer">
                   <TiAttachmentOutline className="w-[24px] h-[24px] text-blue-400" />
@@ -38,14 +42,14 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="border rounded-xl mt-5 p-4">
+          <div className="border rounded-xl mt-5 lg:p-4 p-2">
             <div>
               <div className="flex items-center gap-2">
                 <Image src="/leeImg.png" width={40} height={40} />
                 <div>
                   <h4 className={`${styles.pStyle}`}>Melissa Lee</h4>
-                  <div className={`${styles.flexCente}`}>
-                    <div className="rounded bg-green-800"></div>
+                  <div className={`${styles.flexCenter}`}>
+                    <div className="rounded-full bg-green-600 w-2 h-2"></div>
                     <p className={`${styles.pStyl} text-[12px] font-light`}>
                       UI/UX Designer
                     </p>
@@ -53,14 +57,16 @@ const Home = () => {
                 </div>
               </div>
             </div>
+
+            {/* post */}
             <div className="max-w-[550px]">
-              <h2 className={`${styles.h5Style} mb-2 mt-4`}>
+              <h2 className={`lg:text-[22px] text-[11px] mb-2 mt-4`}>
                 How do you create a consistent visual design in UI/UX?
               </h2>
-              <div className="relative w-[100%] h-[259px]">
+              <div className="relative w-[100%] lg:h-[259px] h-[126px]">
                 <Image src="/leePost.png" fill className="" />
               </div>
-              <h4 className={`${styles.pStyle} mt-2`}>
+              <h4 className={`lg:text-[16px] text-[10px] mt-2`}>
                 Creating a consistent visual design in UI/UX involves
                 establishing a visual style guide that defines guidelines for
                 colors, typography, spacing, and other visual elements.
@@ -105,7 +111,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="w-[36%]">
+        <div className="w-[36%] hidden lg:block">
           <div>
             <Recent />
           </div>
@@ -114,6 +120,7 @@ const Home = () => {
             <Active />
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
