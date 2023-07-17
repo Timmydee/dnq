@@ -22,7 +22,7 @@ const Upload = () => {
                             href="/pickNiche"
                             className="w-[100%] h-8"
                         >
-                        <button className='w-[100%] font-sans bg-sky-400 m-auto p-3 rounded-2xl mt-3 text-white'>
+                        <button className='w-[100%] font-sans bg-blue-500 m-auto p-3 rounded-2xl mt-3 text-white'>
                             
                             
                             Continue
@@ -31,7 +31,7 @@ const Upload = () => {
                         </Link>
                         
 
-                        <button className='w-[100%] font-sans bg-transparent m-auto p-3 hover:text-white hover:bg-blue-600 rounded-2xl mt-3'>
+                        <button className='w-[100%] font-sans bg-transparent m-auto p-3  hover:font-bold rounded-2xl mt-3'>
                             Skip
                         </button>
                     </div>

@@ -23,13 +23,19 @@ const verify = () => {
                         </div>
                         <p className="text-sky-600 text-[11px]">00:30</p>
 
-                        <Link href="/Upload"
-                        className="w-[380px] h-[50px]"
+
+                        <button
+                            type="submit"
+                            
+                            className={`font-sans mt-[10px] cursor-pointer my-3 py-5 w-[380px] h-[50px] transition-all  ease-in duration-500 text-[12px] bg-blue-500 active:bg-blue-700 hover:bg-blue-600 text-white hover:shadow-lg rounded-2xl `}
                         >
-                                <button type="submit" className=" w-[380px] h-[50px] py-5 rounded-2xl cursor-pointer transition-all duration-500 ease-in text-white text-[12px] bg-sky-300 active:bg-blue-700 hover:bg-blue-400">
-                                    Submit 
-                                </button>
-                        </Link>
+                            <Link
+                            href="/Upload"
+                            className="w-[100%] h-8"
+                            >
+                            Submit
+                            </Link>
+                        </button>
                         
                     </form>
                         

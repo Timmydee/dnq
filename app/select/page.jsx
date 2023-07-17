@@ -4,6 +4,7 @@ import React from "react";
 {/*import { Progress } from 'flowbite-react';*/}
 import Image from "next/image";
 import { useState } from 'react';
+import Link from "next/link";
 
 
 const select = () => {
@@ -144,7 +145,7 @@ const select = () => {
                             <input type="radio" name="ab" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
-                            src="/Iqd.png"
+                            src="/Id.png"
                             width={150} 
                             height={150}
                             className="absolute z-10 w-[100%] h-full"
@@ -182,11 +183,19 @@ const select = () => {
                     </div>
 
                     <div className='mt-9 w-[35%] m-auto'>
-                        <button className='w-[100%] font-sans bg-sky-400 m-auto p-3 rounded-2xl mt-3 text-white'>
+                    <Link
+                            href="/dashboard/home"
+                            className="w-[100%] h-8"
+                        >
+                        <button className='w-[100%] font-sans bg-blue-500 m-auto p-3 rounded-2xl mt-3 text-white'>
+                            
+                            
                             Continue
                         </button>
+                            
+                        </Link>
 
-                        <button className='w-[100%] font-sans bg-transparent m-auto p-3 rounded-2xl mt-3'>
+                        <button className='w-[100%] font-sans bg-transparent hover:font-bold m-auto p-3 rounded-2xl mt-3'>
                             Skip
                         </button>
                     </div>

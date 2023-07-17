@@ -126,7 +126,7 @@ const SignUp = () => {
                   >
                     <Link
                     href="/verify"
-                    className="w-full h-8"
+                    className="w-[full] h-8"
                     >
                     Continue
                     </Link>
