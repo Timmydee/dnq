@@ -36,7 +36,7 @@ export default function About () {
             {/* <Image src='/abtline1.png' fill className="absolute top-0 right-0 left-0 bottom-0 hidden lg:block" /> */}
           </div>
           <div className="flex flex-col items-center justify-center h-[500px] mx-auto">
-            <h2 className="text-[#2E9EFF] text-[32px] lg:text-[57px] font-gentium">
+            <h2 className="text-[#2E9EFF] text-[32px] lg:text-[57px] font-pius">
               WHO WE ARE
             </h2>
             <p className="text-[#333333] text-[14px] lg:text-[16px] lg:w-[712px] w-[90%] text-center font-open">
@@ -68,10 +68,10 @@ export default function About () {
         </div>
         <div class="w-full bg-[#060028] py-[40px] justify-center items-center inline-flex">
           <div class="self-stretch flex-col justify-start items-center gap-2.5 inline-flex">
-            <div class="text-center text-white text-[32px] lg:text-[57px] font-bold font-gentium">
+            <div class="text-center text-white text-[32px] lg:text-[57px] font-bold font-pius">
               WHAT WE DO?
             </div>
-            <div class="lg:w-[75%] w-[90%] text-center text-white text-[16px]  font-normal font-open">
+            <div class="lg:w-[75%] w-[90%] text-center text-white text-[16px] font-normal font-open">
               Here, we cater to the needs of designers of all levels, guiding
               them to a wealth of resources and support to help them excel in
               their careers. One of the most unique features of our platform is
@@ -101,10 +101,10 @@ export default function About () {
                   </div>
 
                   <div class="relative bg-gray-200 rounded-[30px] px-8 pt-14 pb-4 z-0">
-                    <div class="text-blue-500 text-[24px] font-bold my-2">
+                    <div class="text-blue-500 text-[24px] font-bold my-2 font-pius">
                       {abt.title}
                     </div>
-                    <div class="lg:w-[474px] w-[95%] lg:h-[100px] h-[150px] text-black text-[16px] font-normal">
+                    <div class="lg:w-[474px] w-[95%] lg:h-[100px] h-[150px] text-black text-[16px] font-open font-normal">
                       {abt.desc}
                     </div>
                   </div>
@@ -112,12 +112,6 @@ export default function About () {
               );
             })}
           </div>
-          {/* <div className="absolute bottom-10 right-0">
-            <Image src="/isolation1.png" width={98} height={94} />
-          </div>
-          <div className="absolute top-10 left-0 ">
-            <Image src="/isolation2.png" width={98} height={94} />
-          </div> */}
         </div>
       </div>
 

@@ -103,7 +103,7 @@ const Login = () => {
 
                   <button
                     type="submit"
-                    
+                    onClick={() => signIn()}
                     className={`${styles.flexCenter} ${styles.btnStyle} font-sans cursor-pointer my-10 w-full h-16 bg-blue-500 shadow-md text-white hover:shadow-lg rounded-2xl hover:bg-blue-700`}
                   >
                     <Link

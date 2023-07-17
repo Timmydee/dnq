@@ -9,15 +9,15 @@ const Frame4 = () => {
       <div className={`${styles.xPaddings}`}>
         <div className="lg:flex-row flex lg:justify-between flex-col-reverse items-center">
           <div className="lg:w-[560px] w-full flex flex-col justify-center items-center lg:block text-center lg:text-start">
-            <h3 className={`${styles.h5Style}`}>Ask Questions</h3>
-            <p className={`${styles.pStyle} my-4`}>
+            <h3 className={`${styles.h5Style} font-pius`}>Ask Questions</h3>
+            <p className={`${styles.pStyle} font-open my-4`}>
               Tap into the collective knowledge of our community by posting your
               design-related questions and receiving expert answers in no time
             </p>
 
             <div
               href=""
-              className="w-[120px] h-[40px] font-light flex items-center justify-center rounded-xl bg-blue-500 text-white shadow-sm hover:shadow-lg hover:bg-blue-700"
+              className="w-[120px] h-[40px] font-light flex items-center font-open justify-center rounded-xl bg-blue-500 text-white shadow-sm hover:shadow-lg hover:bg-blue-700"
             >
               <Link href="/connect">Ask a Question</Link>
             </div>

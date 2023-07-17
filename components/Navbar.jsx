@@ -17,21 +17,26 @@ const Navbar = () => {
   return (
     <div className={`${styles.innerWidth} relative z-20`}>
       <div
-        className={` ${styles.xPaddings} py-1 lg:py-2 flex justify-between items-center shadow-lg `}
+        className={` ${styles.xPaddings} py-1 lg:py-2 flex justify-between items-center shadow-lg shadow-blue-200 `}
       >
         <div className="w-20 h-[76.91px] relative">
-        <Link href="/">
-          <Image
-            src="/dnqLogo.png"
-            width={87}
-            height={87}
-            alt="Picture of the author"
-          />
-        </Link>
+          <Link href="/">
+            <Image
+              src="/dnqLogo.png"
+              width={87}
+              height={87}
+              alt="Picture of the author"
+            />
+          </Link>
         </div>
         <div className="lg:flex hidden justify-between items-center gap-6">
           <div>
-            <Link href="/about" className="font-700 text-[20px] text-zinc-800 hover:text-blue-500 ">About Us</Link>
+            <Link
+              href="/about"
+              className="font-700 text-[20px] font-bold text-zinc-800 hover:text-blue-500 "
+            >
+              About Us
+            </Link>
           </div>
           <div
             href=""
@@ -50,17 +55,22 @@ const Navbar = () => {
 
         <div className="block lg:hidden flex-1">
           <div onClick={handleToggle} className="relative flex justify-end">
-            {!toggle ? (
-              <BiMenuAltRight color="black" size={30} />
-            ) : (
-              <AiOutlineClose color="black" size={30} />
-            )}
+            {!toggle && <BiMenuAltRight color="black" size={30} />}
           </div>
 
           {toggle && (
-            <div className="bg-blue-500 absolute w-[70%] top-0 right-0 bottom-0 left-0 h-[100vh] rounded-lg">
+            <div className="bg-blue-500 fixed w-[100%] top-0 right-0 bottom-0 left-0 h-full">
               <div className="flex-col justify-center items-center p-4 text-white text-[16px] w-full text-lg ">
-                <div className="mt-6 text-center" onClick={() => setToggle(!toggle)}>
+                <div
+                  onClick={handleToggle}
+                  className="relative flex justify-end"
+                >
+                  {toggle && <AiOutlineClose color="white" size={26} />}
+                </div>
+                <div
+                  className="mt-10 text-center"
+                  onClick={() => setToggle(!toggle)}
+                >
                   <Link href="/about">About Us</Link>
                 </div>
                 <div

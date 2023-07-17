@@ -15,7 +15,7 @@ const Frame5 = () => {
           <div className="flex justify-center items-center">
             <div>
               <h1
-                className={`${styles.h2Style} text-zinc-800 lg:text-[40px] text-[20px] font-semibold lg:w-[708px] w-full text-center`}
+                className={`${styles.h2Style} text-zinc-800 lg:text-[40px] text-[20px] font-sans font-semibold lg:w-[708px] w-full text-center`}
               >
                 Join thousands of Designers Across the globe, together we learn
                 and grow
@@ -24,7 +24,7 @@ const Frame5 = () => {
               <div className="flex justify-center cursor-pointer items-center mx-auto mt-4">
                 <div
                   href=""
-                  className="w-[130px] h-[40px] font-light flex items-center justify-center rounded-xl bg-blue-500 cursor-pointer shadow-sm hover:shadow-lg hover:bg-blue-600 text-white"
+                  className="w-[130px] h-[40px] font-light font-sans flex items-center justify-center rounded-xl bg-blue-500 cursor-pointer shadow-sm hover:shadow-lg hover:bg-blue-600 text-white"
                 >
                   <Link href="/connect">Join</Link>
                 </div>
