@@ -1,5 +1,5 @@
 "use client"
-
+import Link from 'next/link';
 import React, { useState } from 'react';
 {/*import { Progress } from 'flowbite-react';*/}
 
@@ -64,8 +64,17 @@ const pickNiche = () => {
                     </div>
 
                     <div className='mt-3 w-[90%] m-auto'>
-                        <button className='w-[100%] font-sans bg-sky-400 m-auto p-3 rounded-2xl mt-3 text-white'>
-                            Continue
+                        <button
+                            type="submit"
+                            
+                            className={`font-sans mt-[10px] cursor-pointer my-3 py-5 w-[100%] h-[50px] transition-all  ease-in duration-500 text-[12px] bg-blue-500 active:bg-blue-700 hover:bg-blue-600 text-white hover:shadow-lg rounded-2xl `}
+                        >
+                            <Link
+                            href="/select"
+                            className="w-[100%] py-5 px-7"
+                            >
+                            Submit
+                            </Link>
                         </button>
 
                         <button className='w-[100%] font-sans bg-transparent m-auto p-3 rounded-2xl mt-3'>

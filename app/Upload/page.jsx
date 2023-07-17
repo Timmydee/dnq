@@ -3,6 +3,7 @@
 import React from "react";
 {/*import { Progress } from 'flowbite-react';*/}
 import Image from "next/image";
+import Link from "next/link";
 
 const Upload = () => {
     return ( 
@@ -16,11 +17,21 @@ const Upload = () => {
                     <Image src="/Uploaddp.png" width={200} height={100} className="m-auto"/>
 
                     <div className='mt-9 w-[35%] m-auto'>
-                        <button className='w-[100%] font-sans bg-sky-400 m-auto p-3 rounded-2xl mt-3 text-white'>
+
+                        <Link
+                            href="/pickNiche"
+                            className="w-[100%] h-8"
+                        >
+                        <button className='w-[100%] font-sans bg-blue-500 m-auto p-3 rounded-2xl mt-3 text-white'>
+                            
+                            
                             Continue
                         </button>
+                            
+                        </Link>
+                        
 
-                        <button className='w-[100%] font-sans bg-transparent m-auto p-3 rounded-2xl mt-3'>
+                        <button className='w-[100%] font-sans bg-transparent m-auto p-3  hover:font-bold rounded-2xl mt-3'>
                             Skip
                         </button>
                     </div>

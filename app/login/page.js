@@ -106,7 +106,12 @@ const Login = () => {
                     onClick={() => signIn()}
                     className={`${styles.flexCenter} ${styles.btnStyle} font-sans cursor-pointer my-10 w-full h-16 bg-blue-500 shadow-md text-white hover:shadow-lg rounded-2xl hover:bg-blue-700`}
                   >
-                    Log In
+                    <Link
+                    href="/dashboard/home"
+                    className="w-full my-10 h-8"
+                    >
+                      Log In
+                    </Link>
                   </button>
 
                   <div className="flex font-sans justify-center w-full my-1">
