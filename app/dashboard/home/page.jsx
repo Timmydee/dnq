@@ -17,7 +17,7 @@ const Home = () => {
         </div>
       
 
-      <div className="w-full mt-4 flex lg:flex-col justify-between">
+      <div className="w-full mt-4 flex flex-col lg:flex-row justify-between">
         <div className="lg:w-[60%] w-full">
           {/* input area */}
           <div className=" border rounded-xl">
