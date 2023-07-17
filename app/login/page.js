@@ -107,7 +107,7 @@ const Login = () => {
                     className={`${styles.flexCenter} ${styles.btnStyle} font-sans cursor-pointer my-10 w-full h-16 bg-blue-500 shadow-md text-white hover:shadow-lg rounded-2xl hover:bg-blue-700`}
                   >
                     <Link
-                    href="/dasboard/home"
+                    href="/dashboard/home"
                     className="w-full my-10 h-8"
                     >
                       Log In

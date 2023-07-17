@@ -7,7 +7,7 @@ export const metadata = {
   description: 'Stackoverflow for designers',
 }
 
-export default function selectlayout({ children }) {
+export default function verifyayout({ children }) {
   return (
     <html lang="en">
       <main>

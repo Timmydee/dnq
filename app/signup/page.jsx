@@ -121,10 +121,15 @@ const SignUp = () => {
 
                   <button
                     type="submit"
-                    href="/dashboard/home"
+                    
                     className={`${styles.flexCenter} ${styles.btnStyle}font-sans mt-[50px] cursor-pointer my-3 w-full h-16 bg-blue-500 shadow-md text-white hover:shadow-lg rounded-2xl hover:bg-blue-700`}
                   >
+                    <Link
+                    href="/verify"
+                    className="w-full h-8"
+                    >
                     Continue
+                    </Link>
                   </button>
 
                   <div className="flex font-sans justify-center w-full my-1">

@@ -27,6 +27,8 @@ const errorPage = () => {
                         Go Home
                     </button>
                 </Link>
+
+                
             </div>
         </div>
      );

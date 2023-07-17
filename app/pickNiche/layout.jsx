@@ -7,7 +7,7 @@ export const metadata = {
   description: 'Stackoverflow for designers',
 }
 
-export default function selectlayout({ children }) {
+export default function pickNichelayout({ children }) {
   return (
     <html lang="en">
       <main>

@@ -15,8 +15,9 @@ const select = () => {
             <div>
                 <div className="lg:w-[100%] w-[80%] m-auto">
                     <h1 className="mt-[50px] text-[30px] font-serif text-center font-[500]">Choose to select</h1>
-                    <p className="text-[14px] text-center mt-[7px] mb-[4px]">Please select the categories that you would love to get content from.</p>
+                    <p className="text-[14px] text-center mt-[7px]">Please select the categories that you would love to get content from.</p>
                     {/*<Progress progress={100} className="w-[300px] m-auto "/>*/}
+                    <p className="text-[12px] text-center mt-[7px] mb-[4px]">Pick four niches, one from every line</p>
                 </div>
 
                 <div className="lg:h-[130vh] h-[180vh]">
@@ -49,7 +50,7 @@ const select = () => {
 
                         <div className="relative " >
                         <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
-                            <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
+                            <input type="radio" name="abc" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/ud.png"
@@ -62,7 +63,7 @@ const select = () => {
 
                         <div className="relative " >
                         <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
-                            <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
+                            <input type="radio" name="bca" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/da.png"
@@ -75,7 +76,7 @@ const select = () => {
 
                         <div className="relative " >
                         <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
-                            <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
+                            <input type="radio" name="bca" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/ld.png"
@@ -88,7 +89,7 @@ const select = () => {
 
                         <div className="relative " >
                         <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
-                            <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
+                            <input type="radio" name="bca" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/bd.png"
@@ -101,7 +102,7 @@ const select = () => {
 
                         <div className="relative " >
                         <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
-                            <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
+                            <input type="radio" name="cab" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/packd.png"
@@ -114,7 +115,7 @@ const select = () => {
 
                         <div className="relative " >
                         <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
-                            <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
+                            <input type="radio" name="cab" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/gamd.png"
@@ -127,7 +128,7 @@ const select = () => {
 
                         <div className="relative " >
                         <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
-                            <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
+                            <input type="radio" name="cab" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/webd.png"
@@ -140,7 +141,7 @@ const select = () => {
 
                         <div className="relative " >
                         <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
-                            <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
+                            <input type="radio" name="ab" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/Iqd.png"
@@ -153,7 +154,7 @@ const select = () => {
 
                         <div className="relative " >
                         <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
-                            <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
+                            <input type="radio" name="ab" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/intd.png"
@@ -166,7 +167,7 @@ const select = () => {
 
                         <div className="relative " >
                         <div className="overlay w-[100%] h-full lg:w-[100%] lg:h-full absolute z-20 bg-black rounded-3xl opacity-30"></div>
-                            <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
+                            <input type="radio" name="ab" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
                             src="/intiod.png"
