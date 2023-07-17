@@ -143,7 +143,7 @@ const select = () => {
                             <input type="radio" className="absolute bg-transparent focus:bg-transparent border-white top-4 left-2 z-30"/>
                             <Image 
                             
-                            src="/Id.png"
+                            src="/Iqd.png"
                             width={150} 
                             height={150}
                             className="absolute z-10 w-[100%] h-full"
