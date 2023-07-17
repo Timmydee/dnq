@@ -7,7 +7,7 @@ const about = [
   {
     img: "/qa.png",
     title: " Q&A",
-    desc: "Ask questions and help provide answers to questions related to design, tools, and techniques.",
+    desc: "Ask questions and help provide answers to questions related to design tools, and techniques.",
   },
   {
     img: "/library.png",

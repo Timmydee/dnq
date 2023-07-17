@@ -36,7 +36,7 @@ const Frame1 = () => {
               </h2>
               <p className="lg:w-[532px] text-[#333333] text-[18px] lg:text-[24px] font-open font-normal w-[100%] lg:text-start text-center my-3">
               
-                Get expert answers to your questions as a Professional Designer.
+                Get expert answers to your design questions.
               </p>
       
             </div>

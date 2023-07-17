@@ -32,13 +32,13 @@ const Testimonial = () => {
       <div className="lg:flex w-[100%] mx-auto justify-between overflow-hidden relative gap-4">
         {testimonies.map((testimony, index) => (
           <div className={`w-full flex flex-col items-center justify-center py-5 lg:h-[400px] h-fit`}>      
-              <div className={`flex items-center justify-center w-[56px] h-[56px] lg:w-[125px] lg:h-[125px] lg:absolute top-[0px] bottom-[0px] z-30`}>
+              <div className={`flex items-center justify-center w-[46px] h-[46px] lg:w-[105px] lg:h-[105px] lg:absolute top-[0px] bottom-[0px] z-30`}>
                 <img src={testimony.imgUrl} fill alt={testimony.title} />
               </div>
 
-              <div className={`flex flex-col items-center justify-center bg-white rounded-2xl shadow-md shadow-blue-200 lg:w-[390px] px-6 pb-4 lg:h-[185px] w-[90%] h-fit relative z-0 lg:pt-5`}>
-                <h4 className="text-blue-500 text-[16px] font-semibold mt-1 mb-2 font-pius">{testimony.title}</h4>
-                <div className="w-[100%] h-[159px] text-zinc-800 text-[12px] font-light font-open">
+              <div className={`flex flex-col items-center justify-center bg-white lg:pt-8 rounded-2xl shadow-md shadow-blue-200 lg:w-[390px] px-8 pb-8 lg:h-[225px] w-[90%] h-fit relative z-0`}>
+                <h4 className="text-blue-500 text-[16px] font-semibold mt-4 mb-2 font-pius">{testimony.title}</h4>
+                <div className="w-[100%] h-[159px] text-[#333333] text-[12px] font-light font-open">
                   <span>{testimony.desc} </span>
                 </div>
               </div>

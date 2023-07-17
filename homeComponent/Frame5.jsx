@@ -17,7 +17,7 @@ const Frame5 = () => {
               <h1
                 className={`${styles.h2Style} text-zinc-800 lg:text-[40px] text-[20px] font-sans font-semibold lg:w-[708px] w-full text-center`}
               >
-                Join thousands of Designers Across the globe, together we learn
+                Join thousands of designers across the globe, together we learn
                 and grow
               </h1>
 

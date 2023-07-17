@@ -52,7 +52,7 @@ const DashboardNavbar = () => {
 
             <div className="absolute bottom-[10%] mt-6 paddingX py-[1rem] w-full flex items-center gap-6 cursor-pointer hoverBg">
               <Image src="/logins.png" width={30} height={30} alt="dnqHome" />
-              <Link href="/dashboard/login">Login</Link>
+              <Link href="/dashboard/login">Logout</Link>
             </div>
           </div>
         </div>
